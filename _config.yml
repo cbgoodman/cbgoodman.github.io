@@ -3,8 +3,8 @@ title:       Christopher B. Goodman
 email:       cbgoodman@unomaha.edu
 author:      Christopher B. Goodman
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     "/cbgoodman.github.io/"
-url:         "cbgoodman.github.io"
+baseurl:     "/cbgoodman.github.io"
+url:         "http://cbgoodman.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
