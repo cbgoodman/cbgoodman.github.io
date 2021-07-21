@@ -1,0 +1,161 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/technology/</link>
+    <description>Recent content in technology on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 14 Jul 2021 15:04:45 -0500</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic Project Management Notion (Update)</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/07/14/academic-project-management-notion-update/</link>
+      <pubDate>Wed, 14 Jul 2021 15:04:45 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/07/14/academic-project-management-notion-update/</guid>
+      <description>&lt;p&gt;About a year ago, I wrote a small post about how I use &lt;strong&gt;Notion&lt;/strong&gt; as a project management tool (the post is &lt;a href=&#34;https://www.cgoodman.com/blog/archives/2020/06/11/academic-project-management-using-notion/&#34;&gt;here&lt;/a&gt;). I didn&amp;rsquo;t really expect it to be as popular as it is, but I also didn&amp;rsquo;t expect myself to change too much about the process either. It was working. Fast forward one, sort of over, but not really pandemic later. Things have certainly changed, sort of. This post is meant to explain some of those changes and to provide a template for anyone who wants to give this a spin.&lt;/p&gt;
+&lt;p&gt;First, if you&amp;rsquo;re just here for the template, &lt;a href=&#34;https://www.notion.so/cbgoodman/Manuscript-Status-32416dd541ee4b549686bbe0a7646a61&#34;&gt;here you go&lt;/a&gt;, click &amp;lsquo;duplicate&amp;rsquo; in the top right corner, sign in to Notion, and add it to your workspace. Bing, bang, done.&lt;/p&gt;
+&lt;h2 id=&#34;lets-back-up&#34;&gt;let&amp;rsquo;s back up&lt;/h2&gt;
+&lt;p&gt;For those of you who may not have read the original post.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-1.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.notion.so/educators&#34;&gt;Notion&lt;/a&gt; is free for educators. Just put in your .edu email address, and you&amp;rsquo;re good to go. Notion is mainly a holding area for all kinds of content, but one of its most potent tools is relational databases. We can link all sorts of data together to surface more helpful information about what we should be working on.&lt;/p&gt;
+&lt;h2 id=&#34;main-project-database-reimagined&#34;&gt;main project database, reimagined&lt;/h2&gt;
+&lt;p&gt;The original design of this was for a main project database. It included all kinds of information about projects, but it was mainly a spreadsheet at the end of the day. You could do similar things in nearly any spreadsheet program. The main project database still exists (named &amp;lsquo;Manuscript Status&amp;rsquo;) but is now linked to do additional databases for more functionality. Let&amp;rsquo;s jump right in.&lt;/p&gt;
+&lt;h3 id=&#34;the-building-blocks&#34;&gt;the building blocks&lt;/h3&gt;
+&lt;p&gt;As mentioned above, the primary component of this system is the Manuscript Status database. Each entry in this database represents a single manuscript and includes a lot of metadata on each project. We&amp;rsquo;ll use that metadata on the main page to surface helpful information, but it&amp;rsquo;s also beneficial in keeping track of all kinds of relevant information specific to each project.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-update-ms-1.png&#34;
+         alt=&#34;Manuscript 1&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Manuscript 1 Metadata&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;As seen above, there are a few pieces of vital information (and many hidden details, click &amp;ldquo;6 more properties&amp;rdquo; to see it all). Is the project active? What is its status? This bit is linked to another database; I&amp;rsquo;ll explain more in a moment. What Journal is it current at or targeted for? Or what conference is it being submitted to?&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-update-ms-2.png&#34;
+         alt=&#34;Manuscript 1 Content&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Manuscript 1 Content&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Further down, this page includes all the relevant data about this manuscript. It consists of the abstract, some more metadata like information and checklists, notes about the project, and any reviewer/editor comments that might have come back. These comments are in their own database and linked, relationally, to this particular manuscript. Any comments related to this manuscript in the Manuscript Reviews database will show up in this section.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-update-ms-3.png&#34;
+         alt=&#34;Manuscript 1 Review&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Manuscript 1 Reviews&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This portion can be highly customized. And it&amp;rsquo;s not too dissimilar to the original database. What is vastly different is how data is surfaced on the main page.&lt;/p&gt;
+&lt;h3 id=&#34;to-dos&#34;&gt;To-dos&lt;/h3&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-update-1.png&#34;
+         alt=&#34;Manuscript Status, To-Do, Active&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;The All Active Projects view&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;A neat feature of Notion is you can display databases (a type of page) any number of times in multiple places. Each of these individual instances of a database can have its own &lt;em&gt;views&lt;/em&gt; or methods of sorting, filtering, or otherwise displaying the data. These can be pretty powerful when used effectively!&lt;/p&gt;
+&lt;p&gt;The &amp;lsquo;To-Do&amp;rsquo; panel at the top of the page is one such instance of a database (the Manuscript Status database). It shows active projects in one view (active = marked active and either in-process or R&amp;amp;R&amp;rsquo;ed), conference papers in another view, and overdue projects in a third view (those past their due dates). These views surface relevant items to work on—active projects requiring work, with near-term due dates.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-update-3.png&#34;
+         alt=&#34;Manuscript Status, To-Do, Conference Papers&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;The Conference Papers view&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;more-contextual-information&#34;&gt;more contextual information&lt;/h3&gt;
+&lt;p&gt;Below the to-do section is a lot of contextual information.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-update-2.png&#34;
+         alt=&#34;Manuscript metadata&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;On the left-hand side is the Status database, showing all manuscripts in the central database. If you click on one of the boxes, it will display all the relevant manuscripts in that category. It&amp;rsquo;s an easy way to surface all of the manuscripts at one time that meets specific status criteria.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-update-status.png&#34;
+         alt=&#34;All in-process manuscripts&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;All in-process manuscripts in the Manuscript Status database&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The right-hand side lists all manuscripts in the Manuscript Status database and a view to show only published work (easy to find all in one place for annual reviews, tenure, etc.). Underneath that is where all the databases that make this entire system work live. The page is self-contained, though Notion will allow linking across heavily nested databases.&lt;/p&gt;
+&lt;h3 id=&#34;templates&#34;&gt;templates&lt;/h3&gt;
+&lt;p&gt;Throughout, there are templates for adding content. Need to add a new manuscript to the main database? Click on &amp;ldquo;new&amp;rdquo; in either instance of the Manuscript Status database on the front page and click &amp;ldquo;New Manuscript Template.&amp;rdquo; The manuscript page is pre-formatted &amp;ndash; add your content—same thing for manuscript reviews. Just click &amp;ldquo;new,&amp;rdquo; then &amp;ldquo;review template,&amp;rdquo; and add the reviews. Remember to link the reviews back to the relevant manuscript. Rinse and repeat for status.&lt;/p&gt;
+&lt;h2 id=&#34;wrapping-up&#34;&gt;wrapping up&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m still bad at project management. These changes have helped me focus on what needs to be done. Hopefully, it&amp;rsquo;s helpful for you too.&lt;/p&gt;
+&lt;h4 id=&#34;credits&#34;&gt;Credits&lt;/h4&gt;
+&lt;p&gt;All credit for the icons used here goes to &lt;a href=&#34;https://www.flaticon.com/authors/smalllikeart/flat/2&#34;&gt;smalllikeart&lt;/a&gt; on &lt;a href=&#34;https://www.flaticon.com/&#34;&gt;https://www.flaticon.com/&lt;/a&gt;, a free SVG icon site. Things like this help break up the monotony of a blank white page.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Academic Project Management using Notion</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/06/11/academic-project-management-using-notion/</link>
+      <pubDate>Thu, 11 Jun 2020 12:01:08 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/06/11/academic-project-management-using-notion/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m horribly bad at project management. It&amp;rsquo;s not usually something that is specifically taught in graduate school even though it&amp;rsquo;s incredibly important to an academic&amp;rsquo;s professional life. There are many ways to go about this (low tech to super high tech), but the purpose of this post is to explain one tool that I have found incredibly useful and flexible. That tool is &lt;strong&gt;Notion&lt;/strong&gt; (&lt;a href=&#34;https://www.notion.so/educators&#34;&gt;notion.so&lt;/a&gt;). Notion can do way more than I am going to explain (see &lt;a href=&#34;https://fortelabs.co/blog/using-notion-as-your-second-brain/&#34;&gt;Using Notion as Your Second Brain&lt;/a&gt;), but this is how I use it to keep track of writing projects throughout the process of development to publication.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: There&amp;rsquo;s a significant update to this post. See &lt;a href=&#34;https://www.cgoodman.com/blog/archives/2021/07/14/academic-project-management-notion-update/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-want-from-platform&#34;&gt;what i want from platform&lt;/h2&gt;
+&lt;p&gt;Before I dive in, I have a few requirements from a platform.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The ability to organize content into discrete databases&lt;/li&gt;
+&lt;li&gt;Hierarchy of content&lt;/li&gt;
+&lt;li&gt;Simple, intuitive formatting (i.e. markdown)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first is really important to me. A database approach allows me to manipulate projects so I can see what I should be working on, what is dormant for right now, when I need to check on things, etc. As we&amp;rsquo;ll see, it&amp;rsquo;s a cornerstone of the approach I&amp;rsquo;ll describe below. Hierarchy is important because I need to nest items (reviews, research) inside of projects. Lastly, I don&amp;rsquo;t want to spend a ton of time messing around with formatting. I&amp;rsquo;ve found markdown to be a simple and intuitive way to make that happen.&lt;/p&gt;
+&lt;h2 id=&#34;notion-and-project-management&#34;&gt;notion and project management&lt;/h2&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-1.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.notion.so/educators&#34;&gt;Notion&lt;/a&gt; is free for educators. Just put in your .edu email address and you&amp;rsquo;re good to go. The link above takes you to the educators site which has a lot of information about and templates for using Notion for teaching (scheduling, lesson planning, etc), but is fairly silent on project management.&lt;/p&gt;
+&lt;h3 id=&#34;master-project-database&#34;&gt;master project database&lt;/h3&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-2.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;This all starts with a master project database. You can create that by starting a new page and then choosing the &amp;ldquo;database&amp;rdquo; option for the type of page. Each line is a database entry for a single project identified by the paper title (you can change this at any time). I then tag each with the relevant article number (if under review), its status (in-process, under review, R&amp;amp;R&amp;rsquo;ed, or published), the journal, the last time there was a status change (I submitted it somewhere, it got rejected, etc), and any relevant due dates (you can also set reminders to any date in Notion). I&amp;rsquo;m only showing published and in-process work here for obvious reasons, but this highlights one of the benefits of arranging your project this way. I can filter projects by status and then save that filter as a &amp;ldquo;view&amp;rdquo; that I can come back to (see below). This allows me to quickly arrange my projects based on what I want to see rather than an overwhelming list of things to do.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-3.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;If I want to see only projects in the pre-submission phase, I can see only those in the &amp;ldquo;In Process&amp;rdquo; view. Or I can see only manuscripts under review so I can easily figure out if I need to check with the journal editor on its status. These views make it very easy for me to see the information that I want to see. There&amp;rsquo;s an immense level of customization for these views that you can tailor to your own needs.&lt;/p&gt;
+&lt;h3 id=&#34;project-pages&#34;&gt;project pages&lt;/h3&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/notion-4.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Because each entry into the master project database is a page unto itself, you can use this organize information about the project. This is a project page for a manuscript that was published last year in &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/pbaf.12239&#34;&gt;&lt;em&gt;Public Budgeting &amp;amp; Finance&lt;/em&gt;&lt;/a&gt;. It currently contains the abstract and the two rounds of reviews I had from PBAF (in further nested pages). However, this page can contain anything you like. If I had been using this system earlier, this would have reviews from the journals this paper was rejected from, notes about how I might alter the manuscript, or anything else I might want to save with this project. You could also do some task management here though I use another program (&lt;a href=&#34;https://culturedcode.com/things/&#34;&gt;Things 3&lt;/a&gt;) to manage the day-to-day to-do lists associated with a project. How creative you want to get here or what system you want to use is completely up to you.&lt;/p&gt;
+&lt;h3 id=&#34;templates&#34;&gt;templates&lt;/h3&gt;
+&lt;p&gt;A nice part of Notion is that you can create templates for new pages. In the master project database, the main template is for a new project. This pre-populates a new project page with areas for the abstract, reviews, and notes. You could pre-populate a new project with &lt;a href=&#34;https://docs.google.com/document/d/1JwwmOgRhd2p-Bl_RFEMnp04P0I2nNhOHW7JHdaLcyGs/edit&#34;&gt;Mirya Holman&amp;rsquo;s Submission Checklist&lt;/a&gt;. The sky is the limit.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a little thing that saves me time when I set up a new project to track.&lt;/p&gt;
+&lt;h2 id=&#34;wrapping-up&#34;&gt;wrapping up&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m bad at project management though I&amp;rsquo;m much better than I used to be. This is a fairly simple way to keep track of a lot of projects and their associated content in Notion. I&amp;rsquo;m not suggesting this is the perfect system or even a preferable system for anyone other than me, but of the numerous things I&amp;rsquo;ve tried, this has stuck. It&amp;rsquo;s as close to how I map things out in my brain as I&amp;rsquo;ve found. Hopefully this as given you something to think about and an intro into a tool I have found incredibly valuable in my own work.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I Record Lectures</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/01/19/how-i-record-lectures/</link>
+      <pubDate>Sun, 19 Jan 2020 17:47:17 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/01/19/how-i-record-lectures/</guid>
+      <description>&lt;p&gt;I am teaching online again and that means recording audio lectures. A lot has changed (or I perceive it to have changed) since the last time I did this so I endeavored to find a way to record/edit all my lectures on an iPad Pro. To be clear, I made this harder on myself by restricting everything to be done on an iPad. But I want something reasonably portable in case I need to record on the go.&lt;/p&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;On the hardware side, I already had a bit of equipment from my last attempts are recording lectures. I wanted high enough sound quality without having to buy too much stuff. I settled on a reasonably nice USB mic (see below) and used my NIU-issued iPad Pro.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/hardware.jpg&#34;
+         alt=&#34;hardware setup&#34; width=&#34;75%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Messy desk&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audio-technica.com/cms/wired_mics/5879a6ca22e5aa7e/index.html&#34;&gt;audio-technica AT2020USB+&lt;/a&gt; Cardioid Condenser USB Microphone, though any USB mic will work&lt;/li&gt;
+&lt;li&gt;iPad Pro&lt;/li&gt;
+&lt;li&gt;An Apple Pencil (makes my editing life much better)&lt;/li&gt;
+&lt;li&gt;A USB-A to USB-C adapter&lt;/li&gt;
+&lt;li&gt;Various quality of life enhancements that are not required but very nice to have (a &lt;a href=&#34;https://www.audio-technica.com/cms/windscreens_mounts/4c067771f9e376ca/index.html&#34;&gt;compatible shock mount&lt;/a&gt;, a heavy mic stand, a good pair of monitor headphones)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of this isn&amp;rsquo;t strictly necessary. Any USB mic will work. The Apple Pencil is a quality of life thing as is many of the other desktop accessories. The minimum required hardware is a mic, USB adapter, and an iPad.&lt;/p&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;Hardware is just a means to an end. I still have to talk into a microphone. There are plenty of ways to make this work on an iPad. Garage Band (pre-packaged on all(?) iOS devices) is a completely free way to do this, but it has some quirks that I found distasteful. Mainly, I couldn&amp;rsquo;t find an easy way to see how long I had recorded in real time. Searching for alternatives, I stumbled on Charlie Sorrel&amp;rsquo;s &lt;a href=&#34;https://www.cultofmac.com/596138/record-podcasts-ipad-only/&#34;&gt;three-part&lt;/a&gt;, &amp;ldquo;&lt;a href=&#34;https://www.cultofmac.com/596728/ipad-podcasting-apps/&#34;&gt;How to record podcasts on iPad&lt;/a&gt;&amp;rdquo; on &lt;a href=&#34;https://www.cultofmac.com/598570/how-i-edit-podcasts-with-apple-pencil-on-ipad-pro/&#34;&gt;Cult of Mac&lt;/a&gt; and pretty much followed the formula.&lt;/p&gt;
+&lt;p&gt;This required some specific paid software. I previous recorded/edited on a Mac using &lt;a href=&#34;https://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt;. It&amp;rsquo;s free, easy to use, and cross-platform if that&amp;rsquo;s important. Unfortunately, it&amp;rsquo;s not so cross-platform that I can use it on an iOS device. So I whipped out my credit card and headed to iTunes. A lot of these claim to be &amp;ldquo;free,&amp;rdquo; but I found the free versions are quite limited given what I wanted to do so I paid up. It appears many of these are small developers so I am more than happy to throw some cash their way for quality products.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/ipad-audio.jpg&#34;
+         alt=&#34;ipad screenshot&#34; width=&#34;75%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;iPad Audio Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/aum-audio-mixer/id1055636344?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;AUM – Audio Mixer&lt;/a&gt; &amp;ndash; for recording&lt;/li&gt;
+&lt;li&gt;A noise reducing tool (I use &lt;a href=&#34;https://itunes.apple.com/us/app/brusfri/id1289165912?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;Brusfri&lt;/a&gt; that is compatible on its own and in-line with AUM)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/audioshare/id543859300?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;AudioShare&lt;/a&gt; &amp;ndash; audio file management plus some useful audio tools&lt;/li&gt;
+&lt;li&gt;Editing software (&lt;a href=&#34;https://itunes.apple.com/us/app/ferrite-recording-studio/id1018780185?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;Ferrite Recording Studio&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AUM serves as my audio mixer and recording device (it can handle a number of audio inputs which is a nice perk should I ever decide to record with a partner) and I use Brusfri in-line as a noise reduction tool (my office is right below the main HVAC for the building and I didn&amp;rsquo;t want that hum in the recording). An added benefit of this set up is that I can use it as the voice over for screen captured video and voice over powerpoint. See &lt;a href=&#34;https://teddysvoronos.com/2018/12/04/producing-recording-editing-and-sharing-animated-videos-on-ipad/&#34;&gt;Teddy Svoronos&lt;/a&gt; at &lt;a href=&#34;https://www.hks.harvard.edu&#34;&gt;HKS&lt;/a&gt; for more on that. At this point, I talk into the microphone.&lt;/p&gt;
+&lt;p&gt;Editing is next. I use AudioShare mostly to level out any extreme peaks in the recording (it&amp;rsquo;s also integrated with AUM so it becomes very easy to categorize recordings) and then import it into Ferrite for editing. I mostly edit out the dead air and umms, but I sometimes get rid of whole passages that I don&amp;rsquo;t think hit right. I could insert new content here as well. I mostly follow Charlie&amp;rsquo;s &lt;a href=&#34;https://www.cultofmac.com/598570/how-i-edit-podcasts-with-apple-pencil-on-ipad-pro/&#34;&gt;method&lt;/a&gt; and the Apple Pencil is great here. Ferrite allows you to assign different actions to the pencil vs your finger. I have set up a left swipe of the pencil to select and delete. This makes it very simple to listen along and quickly edit out stuff.&lt;/p&gt;
+&lt;p&gt;All that&amp;rsquo;s left is to export to MP3 and upload to Blackboard. It seems like a lot, but I&amp;rsquo;ve found after the first one the process goes very quickly.&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s it! Recording high quality audio lectures with a small and very portable setup.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

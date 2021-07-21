@@ -1,0 +1,35 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stata on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/stata/</link>
+    <description>Recent content in stata on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 16 Jul 2018 16:53:53 -0500</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/stata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>msacrosswalk</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/07/16/msacrosswalk/</link>
+      <pubDate>Mon, 16 Jul 2018 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/07/16/msacrosswalk/</guid>
+      <description>&lt;p&gt;Stata program for merging U.S. MSA/CBSA identifiers.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;msacrosswalk&lt;/code&gt; is a simple Stata crosswalk program for adding 2013, 2015, or 2017 vintage CBSA/CSA codes, CBSA/CSA names, metropolitan/micropolitan, and central/outlying indicators that may be missing from your dataset.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cbgoodman/msacrosswalk/releases&#34;&gt;msacrosswalk on Github&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>countyfips</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/06/21/countyfips/</link>
+      <pubDate>Thu, 21 Jun 2018 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/06/21/countyfips/</guid>
+      <description>&lt;p&gt;Stata program for merging U.S. county identifiers.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;countyfips&lt;/code&gt; is a simple Stata crosswalk program for adding various county-level identifiers (name, FIPS, Census codes) that may be missing from your dataset. The purpose of this program is to facilitate merging datasets that do not share a common identifier.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/cbgoodman/countyfips/releases&#34;&gt;countyfips on Github&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

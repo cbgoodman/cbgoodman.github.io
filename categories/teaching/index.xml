@@ -1,0 +1,134 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teaching on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/teaching/</link>
+    <description>Recent content in teaching on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Oct 2019 14:44:22 -0500</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MPA/MPP Degrees Conferred </title>
+      <link>https://www.cgoodman.com/blog/archives/2019/10/15/mpa/mpp-degrees-conferred/</link>
+      <pubDate>Tue, 15 Oct 2019 14:44:22 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2019/10/15/mpa/mpp-degrees-conferred/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/mpampp.png&#34;
+         alt=&#34;Growth in Earned Degrees in Public Affairs&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Created in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;ggplot2&lt;/code&gt;. Full code and data can be found &lt;a href=&#34;https://github.com/cbgoodman/ipeds-pa&#34;&gt;here&lt;/a&gt;. Data from the &lt;a href=&#34;https://nces.ed.gov/ipeds/use-the-data&#34;&gt;IPEDS Data Center&lt;/a&gt; for CIP 44.04 (MPA) and CIP 44.05 (MPP).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Students Writing Their Own Exam Questions</title>
+      <link>https://www.cgoodman.com/blog/archives/2019/09/11/students-writing-their-own-exam-questions/</link>
+      <pubDate>Wed, 11 Sep 2019 11:22:55 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2019/09/11/students-writing-their-own-exam-questions/</guid>
+      <description>&lt;p&gt;Writing good exam questions is hard. If done correctly, the student should have no idea the lengths you went through to write a good set of questions. But maybe they should know just how difficult it really is. This semester I tried an experiment: allow my masters students a chance to write their own midterm exam (with some pretty specific guidelines). We&amp;rsquo;ll see how it turns out, but so far I have been impressed with how much they have taken to the idea.&lt;/p&gt;
+&lt;h3 id=&#34;the-guidelines&#34;&gt;The guidelines&lt;/h3&gt;
+&lt;p&gt;After some course specific introductory text, I outline the three main parts of the task.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The intended learning outcome of the question&lt;/strong&gt;. What is it that you want a student to demonstrate knowledge of? The learning objectives of this course are a good starting place.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The problem situation&lt;/strong&gt;. What is the context of the question? This helps student’s ground their understanding of the question in the real world and better link it to the theoretical material in the course.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The essay question&lt;/strong&gt;. This essentially combines the previous two points. What aspects of the problem situation do you want the student to probe to demonstrate the learning outcome? This should take the form of application or integration (see the syllabus for definitions of these).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can see the syllabus I am referring to on my &lt;a href=&#34;https://www.cgoodman.com/teaching/2019f-revenue/&#34;&gt;PSPA 611 page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The inspiration for these tasks comes from &lt;a href=&#34;https://testing.byu.edu/handbooks/WritingEffectiveEssayQuestions.pdf&#34;&gt;a handbook on preparing effective essay questions&lt;/a&gt;. I particularly like the first point about the learning objective. I&amp;rsquo;m not entirely sure students stop to take the time to think about what concepts an exam question is meant to probe beyond the immediate task in the question.&lt;/p&gt;
+&lt;p&gt;From here I diverge somewhat with &lt;a href=&#34;https://www.facultyfocus.com/articles/educational-assessment/student-written-exams-increase-student-involvement/&#34;&gt;what others have done&lt;/a&gt;. I offered this as a small amount of extra credit to anyone who turned in a proposed question. From this pool, I chose 3 questions (and added a 4th of my own to round out the topics) to appear on the exam. The exams are out in the wild right now so I don&amp;rsquo;t have a conclusion to this experiment just yet (consider this a pre-registration); however, if it goes as well as it appears to be going, I am plan to integrate this assignment into the midterm proper in future semesters.&lt;/p&gt;
+&lt;h3 id=&#34;take-aways-so-far&#34;&gt;Take aways so far&lt;/h3&gt;
+&lt;p&gt;Having thought about this quite a bit, I like the incentives baked into something like this. It gets the students to think about what they are learning in multiple ways that can be difficult to do otherwise. Specifying a learning objective allows them to be contemplative about the big topics in the course and then narrow them down to something more manageable. It also allows for application of these topics to a particular context; a context that the student is likely familiar with. In the &lt;a href=&#34;https://mpa.niu.edu&#34;&gt;NIU MPA program&lt;/a&gt;, we are particularly concerned with translating in-class experiences to the workplace.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; This small task allows some more abstract concepts to be applied.&lt;/p&gt;
+&lt;p&gt;Overall, I am fairly happy with how this experiment has gone so far.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;For context, our program requires all students to either be working in the public/non-profit sector or engaged in an internship. This allows for almost immediate translation of course concepts to the workplace.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+    <item>
+      <title>Teaching Public Finance with John Oliver</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/04/18/teaching-public-finance-with-john-oliver/</link>
+      <pubDate>Wed, 18 Apr 2018 16:01:30 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/04/18/teaching-public-finance-with-john-oliver/</guid>
+      <description>&lt;p&gt;Ever so often, I teach public finance to graduate students. I have found for many topics it helps to motivate them by providing some &amp;ldquo;real world&amp;rdquo; examples (sidenote: I hate that term). &lt;a href=&#34;https://www.hbo.com/last-week-tonight-with-john-oliver&#34;&gt;Last Week Tonight with John Oliver&lt;/a&gt; provides many such examples, presented in a let&amp;rsquo;s say unique way. He&amp;rsquo;s gotten very close to cover nearly every topic I would want to cover. I have tried to lay them out in a coherent way. Enjoy!&lt;/p&gt;
+&lt;h3 id=&#34;federal-budgeting&#34;&gt;Federal budgeting&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ySTQk6updjQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;tax-administration&#34;&gt;Tax administration&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Nn_Zln_4pA8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;corporate-income-taxes&#34;&gt;Corporate income taxes&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/RKjk0ECXjiQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;fines-and-forfeitures&#34;&gt;Fines and forfeitures&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0UjpmT5noto&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/3kEpZWGgJks&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;intergovernmental-relations&#34;&gt;Intergovernmental relations&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/3saU5racsGE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;capital-budgeting-and-spending&#34;&gt;Capital budgeting and spending&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Wpzvaqypav8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;special-topics-economic-development&#34;&gt;Special topics: Economic development&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8bl19RoR7lc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xcwJt4bcnXs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;
+&lt;h3 id=&#34;special-topics-law-enforcement&#34;&gt;Special topics: Law enforcement&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/v_kak7kAdNw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;br&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

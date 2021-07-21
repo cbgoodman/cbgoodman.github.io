@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,partials=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1 minimal-ui">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@cbgoodman">
+<meta name="twitter:title" content="Maps in R using urbnmapr : cgoodman.com">
+<meta name="twitter:creator" content="@cbgoodman">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="cgoodman.com">
+
+
+    <base href="https://www.cgoodman.com/">
+    <title> Maps in R using urbnmapr </title>
+    <link rel="canonical" href="https://www.cgoodman.com/blog/archives/2018/06/16/maps-in-r-using-urbnmapr/">
+    
+
+            <link rel="stylesheet" type="text/css" href="https://www.cgoodman.com/css/kube.css"  />
+        <link rel="stylesheet" type="text/css" href="https://www.cgoodman.com/css/demo.css"  />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+<script type="text/javascript" src="https://use.typekit.com/kpn7wwu.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+    <link rel="shortcut icon" href="https://www.cgoodman.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://www.cgoodman.com/apple-touch-icon.png" />
+</head>
+
+
+<body>
+<div id="topbar">
+<div class="wrapper">
+  <header>
+  <nav class="navbar">
+  <ul>
+    <li><a href="https://www.cgoodman.com/">Christopher B. Goodman</a></li>
+    
+    
+    <li><span> <a class="" href="https://www.cgoodman.com/cv">bio &amp; cv </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/research">Research </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/data">Data </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/teaching">Teaching </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/blog">Blog </a></span>
+      
+  </ul>
+</nav>
+
+  </header>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="units-row">
+<div class="unit-20">&nbsp;</div>
+<div class="unit-60"><h2><a href="">Maps in R using urbnmapr</a></h2></div>
+</div>
+<div class="units-row">
+  <div class="unit-20 dateblock"><h4>June 16, 2018</h4>
+
+
+    
+    &middot; <a class="small" href="https://www.cgoodman.com/categories/r">R</a>
+    
+    &middot; <a class="small" href="https://www.cgoodman.com/categories/dataviz">dataviz</a>
+    
+    &middot; <a class="small" href="https://www.cgoodman.com/categories/maps">maps</a>
+    
+
+
+  </div>
+<div class="unit-60">
+
+  <p>The Urban Institute has released a new package for mapping state and county data in <strong>R</strong>, <code>urbnmapr</code>. Their posts can be found <a href="https://medium.com/@urban_institute/how-to-create-state-and-county-maps-easily-in-r-577d29300bb2">here</a> and
+<a href="https://ui-research.github.io/r-at-urban/mapping.html">here</a>. Since I occasionally write about how to make simple maps in <strong>R</strong>, I am going to quickly go from start to finish on making a county map.</p>
+<h2 id="installation">Installation</h2>
+<p>Installation is easy. The library is hosted on Urban&rsquo;s <a href="https://github.com/UrbanInstitute/urbnmapr">GitHub</a> page. Installing <strong>R</strong> packages from non-CRAN sources requires the <code>devtools</code> package.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">require</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;devtools&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">devtools</span><span style="color:#ce5c00;font-weight:bold">::</span><span style="color:#000">install_github</span><span style="color:#000;font-weight:bold">(</span>“<span style="color:#000">UrbanInstitute</span><span style="color:#ce5c00;font-weight:bold">/</span><span style="color:#000">urbnmapr</span>”<span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><h2 id="example">Example</h2>
+<p>Let&rsquo;s dive into any example. Since my last <a href="https://www.cgoodman.com/2017/02/14/maps-in-library%28maps%29-updated/">Maps in R</a> post used data on the <a href="http://www.metrostudies.pitt.edu/Projects/Metropolitan-Power-Diffusion-Index">Metropolitan Power Diffusion Index</a> for special districts from year 2012, we&rsquo;ll use the same data. The base data comes from the <a href="http://www.census.gov/govs/cog/">2012 Census of Governments</a></p>
+<p><code>urbnmapr</code> is a package to map states and/or counties in <code>ggplot2</code> so for simplicity sake, we&rsquo;ll load the entire <code>tidyverse</code> library. We&rsquo;ll need to load <code>dplyr</code> for the join anyways. I have loaded the <code>viridis</code> library to gain access to the <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">Viridis color scale</a>. This isn&rsquo;t necessary, but I like the color options.</p>
+<p>To add the MPDI data to the <code>urbnmapr</code> data, <code>left_join()</code> from the <code>dplyr</code> package is used. One thing to pay close attention to is this requires the joining data to be of the same class. <code>county_fips</code> in <code>urbnmapr::counties</code> is of class character; hence, my import of the county FIPS variable as &ldquo;character&rdquo;.</p>
+<!---required packages and data import--->
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;tidyverse&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;viridis&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;urbnmapr&#34;</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#8f5902;font-style:italic"># Add data</span>
+<span style="color:#000">mpdi</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">read.csv</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;mpdi.csv&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">header</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#204a87;font-weight:bold">TRUE</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">sep</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;,&#34;</span><span style="color:#000;font-weight:bold">,</span>
+        <span style="color:#000">quote</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;\&#34;&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">colClass</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">c</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;character&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;numeric&#34;</span><span style="color:#000;font-weight:bold">))</span>
+<span style="color:#8f5902;font-style:italic"># Join with urbnmapr</span>
+<span style="color:#000">mpdi.data</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">left_join</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">mpdi</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">counties</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">by</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;county_fips&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><p>With the data imported and joined, I next define some cut points in the data. This step isn&rsquo;t strictly necessary depending on your data (<code>ggplot2</code> will attempt to map any numerical data on a continuous scale). For these data, defining some cut points makes for a more meaningful map.</p>
+<!---create quantiles--->
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#8f5902;font-style:italic"># Create quantiles</span>
+<span style="color:#000">no_classes</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#0000cf;font-weight:bold">6</span>
+<span style="color:#000">labels</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">c</span><span style="color:#000;font-weight:bold">()</span>
+<span style="color:#000">quantiles</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">quantile</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">mpdi.data</span><span style="color:#ce5c00;font-weight:bold">$</span><span style="color:#000">mpdi</span><span style="color:#000;font-weight:bold">,</span>
+                      <span style="color:#000">probs</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">seq</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">length.out</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">no_classes</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">))</span>
+<span style="color:#8f5902;font-style:italic"># Custom labels, rounding</span>
+<span style="color:#000">labels</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">c</span><span style="color:#000;font-weight:bold">()</span>
+<span style="color:#000">for</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">idx</span> <span style="color:#000">in</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#ce5c00;font-weight:bold">:</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">quantiles</span><span style="color:#000;font-weight:bold">)){</span>
+  <span style="color:#000">labels</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">c</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">labels</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">paste0</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">round</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">quantiles[idx]</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">),</span>
+  <span style="color:#4e9a06">&#34; – &#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#000">round</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">quantiles[idx</span> <span style="color:#ce5c00;font-weight:bold">+</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000">]</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">2</span><span style="color:#000;font-weight:bold">)))</span>
+<span style="color:#000;font-weight:bold">}</span>
+<span style="color:#8f5902;font-style:italic"># Minus one label to remove the odd ending one</span>
+<span style="color:#000">labels</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">labels[1</span><span style="color:#ce5c00;font-weight:bold">:</span><span style="color:#000">length</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">labels</span><span style="color:#000;font-weight:bold">)</span><span style="color:#0000cf;font-weight:bold">-1</span><span style="color:#000">]</span>
+
+<span style="color:#8f5902;font-style:italic"># Create new variable for fill</span>
+<span style="color:#000">mpdi.data</span><span style="color:#ce5c00;font-weight:bold">$</span><span style="color:#000">mpdi.quantiles</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">cut</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">mpdi.data</span><span style="color:#ce5c00;font-weight:bold">$</span><span style="color:#000">mpdi</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#000">breaks</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">quantiles</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#000">labels</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">labels</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#000">include.lowest</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#3465a4">T</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><p>From here, we plot! If you&rsquo;re at all familiar with <code>ggplot2</code>, this should look very familiar. The two <code>geom_polygon</code> lines define the filled county map and the state outline map. <code>coord_map()</code> defines the map projection. Urban&rsquo;s post uses the Albers projection, but I happen to like the polyconic projection and that&rsquo;s what is used here. <code>coord_map()</code> can use any projection in the <code>mapproj</code> package so the choice of projection is up to you. <code>scale_fill_viridis()</code> uses the <code>virdis</code> library to assign colors. I have reversed the usual color scale and trimmed off the top color (<code>end=0.9</code>, bright yellow). The remainder of the code is theming. I remove all the axis labels and coloring, change the default font, and move the legend around.</p>
+<!---plot!--->
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">ggplot</span><span style="color:#000;font-weight:bold">()</span> <span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#8f5902;font-style:italic"># County map</span>
+  <span style="color:#000">geom_polygon</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">data</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">mpdi.data</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">mapping</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">aes</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">long</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">lat</span><span style="color:#000;font-weight:bold">,</span>
+      <span style="color:#000">group</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">group</span><span style="color:#000;font-weight:bold">,</span>
+      <span style="color:#000">fill</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">mpdi.data</span><span style="color:#ce5c00;font-weight:bold">$</span><span style="color:#000">mpdi.quantiles</span><span style="color:#000;font-weight:bold">))</span> <span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#8f5902;font-style:italic"># Add state outlines</span>
+  <span style="color:#000">geom_polygon</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">data</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">urbnmapr</span><span style="color:#ce5c00;font-weight:bold">::</span><span style="color:#000">states</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">mapping</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">aes</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">long</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">lat</span><span style="color:#000;font-weight:bold">,</span><span style="color:#000">group</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">group</span><span style="color:#000;font-weight:bold">),</span>
+    <span style="color:#000">fill</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#204a87;font-weight:bold">NA</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">color</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;#ffffff&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">size</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0.4</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#8f5902;font-style:italic"># Projection</span>
+  <span style="color:#000">coord_map</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">projection</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;polyconic&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#8f5902;font-style:italic"># Fill color</span>
+  <span style="color:#000">scale_fill_viridis</span><span style="color:#000;font-weight:bold">(</span>
+    <span style="color:#000">option</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;viridis&#34;</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">name</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Metropolitan Power Diffusion Index&#34;</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">discrete</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#3465a4">T</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">direction</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">-1</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">end</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">0.9</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">guide</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">guide_legend</span><span style="color:#000;font-weight:bold">(</span>
+      <span style="color:#000">keyheight</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">unit</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">units</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;mm&#34;</span><span style="color:#000;font-weight:bold">),</span>
+      <span style="color:#000">title.position</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#39;top&#39;</span><span style="color:#000;font-weight:bold">,</span>
+      <span style="color:#000">reverse</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#3465a4">F</span><span style="color:#000;font-weight:bold">)</span>
+    <span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#8f5902;font-style:italic"># Theming</span>
+  <span style="color:#000">theme_minimal</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">base_family</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Open Sans Condensed Light&#34;</span><span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">theme</span><span style="color:#000;font-weight:bold">(</span>
+    <span style="color:#000">legend.position</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;bottom&#34;</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">legend.text.align</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">,</span>
+    <span style="color:#000">plot.margin</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">unit</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">c</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">.5</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">.5</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">.2</span><span style="color:#000;font-weight:bold">,</span><span style="color:#0000cf;font-weight:bold">.5</span><span style="color:#000;font-weight:bold">),</span> <span style="color:#4e9a06">&#34;cm&#34;</span><span style="color:#000;font-weight:bold">))</span> <span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">theme</span><span style="color:#000;font-weight:bold">(</span>
+    <span style="color:#000">axis.line</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000">axis.text.x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000">axis.text.y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000">axis.ticks</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000">axis.title.x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000">axis.title.y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000">panel.grid.major</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000">panel.grid.minor</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">element_blank</span><span style="color:#000;font-weight:bold">(),</span>
+    <span style="color:#000;font-weight:bold">)</span><span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">theme</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">plot.title</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">element_text</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">family</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;Open Sans Condensed Bold&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">margin</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">margin</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">b</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">15</span><span style="color:#000;font-weight:bold">)))</span><span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">theme</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">plot.subtitle</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">element_text</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">family</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#4e9a06">&#34;Open Sans Condensed Light Italic&#34;</span><span style="color:#000;font-weight:bold">))</span><span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">theme</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">plot.margin</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">unit</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">rep</span><span style="color:#000;font-weight:bold">(</span><span style="color:#0000cf;font-weight:bold">0.5</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#0000cf;font-weight:bold">4</span><span style="color:#000;font-weight:bold">),</span> <span style="color:#4e9a06">&#34;cm&#34;</span><span style="color:#000;font-weight:bold">))</span><span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">labs</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">,</span>
+       <span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">,</span>
+       <span style="color:#000">title</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Example map using the Data@Urban `urbnmapr&#39;&#34;</span><span style="color:#000;font-weight:bold">,</span>
+       <span style="color:#000">subtitle</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Metropolitan Power Diffusion Index, Special Districts 2012&#34;</span><span style="color:#000;font-weight:bold">,</span>
+       <span style="color:#000">caption</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#4e9a06">&#34;Author: Chris Goodman (@cbgoodman), Data: U.S. Census Bureau Census of Governments&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><h2 id="final-product">Final Product</h2>
+<p>The final product is sharp looking. Certainly web-ready and with a little more work is likely print-ready. As I move all my graphics production to <code>ggplot2</code>, <code>urbnmapr</code> is my new go-to for simple state or county mapping. It won&rsquo;t replace more complex operations requiring shapefiles, but it will reduce the amount of time and effort it takes to make simple maps.</p>
+<figure><img src="files/misc/mpdi_urbnmapr.png"
+         alt="Metropolitan Power Diffusion Index, 2012. Normally, Alaska would be included, but the original MPDI data file did not and I did not update it."/><figcaption>
+            <p>Metropolitan Power Diffusion Index, 2012. Normally, Alaska would be included, but the original MPDI data file did not and I did not update it.</p>
+        </figcaption>
+</figure>
+
+
+  
+
+<ul class="pagination">
+  
+  <li><a href="https://www.cgoodman.com/blog/archives/2018/04/18/teaching-public-finance-with-john-oliver/">&laquo; <em>Previous</em> Teaching Public Finance with John Oliver</a></li>  
+  
+  <li><a href="https://www.cgoodman.com/blog/archives/2018/06/21/countyfips/">&raquo; <em>Next</em> countyfips</a></li>
+</ul> 
+
+<meta itemprop="wordCount" content="762">
+<meta itemprop="datePublished" content="2018-06-16">
+<meta itemprop="url" content="https://www.cgoodman.com/blog/archives/2018/06/16/maps-in-r-using-urbnmapr/">
+
+
+
+        <a href="https://www.cgoodman.com/categories/">All Categories</a>
+
+
+  
+<div>
+
+
+
+
+
+<p><a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.cgoodman.com%2fblog%2farchives%2f2018%2f06%2f16%2fmaps-in-r-using-urbnmapr%2f" target="_blank" aria-label="Facebook">
+  <div class="badge-facebook"><i class="fa fa-facebook"></i> &nbsp; Share on Facebook</div>
+</a>
+</p>
+<p>
+<a href="https://twitter.com/intent/tweet/?text=Maps%20in%20R%20using%20urbnmapr; https%3a%2f%2fwww.cgoodman.com%2fblog%2farchives%2f2018%2f06%2f16%2fmaps-in-r-using-urbnmapr%2f" target="_blank" aria-label="Twitter">
+  <div class="badge-twitter "><i class = "fa fa-twitter"></i>&nbsp; Share on Twitter</div>
+</a>
+</p>
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+<hr class="separator">
+
+<div class="wrapper" style="font-size: 0.9em; line-height: 1.05em;">
+  <div class="units-row units-padding">
+    <div class="unit-40">
+      <h3><a id="about">about</a></h3>
+      <p>I teach about <a href="http://mpa.niu.edu/">public administration and local government</a> at <a href="http://www.niu.edu">Northern Illinois University</a>. <a href="cv/">Learn more</a>.</p>
+    </div>
+    <div class="unit-30">
+      <h3>Where</h3>
+      <ul class="compact fa-ul">
+        <li><i class="fa-li fa fa-university fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i>Department of Public Administration, Northern Illinois University, IA 204, DeKalb, Illinois 60115.</li>
+        <li><i class="fa-li fa fa-envelope fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="mailto:cbgoodman@niu.edu">cgoodman@niu.edu</a></li>
+        <li><i class="fa-li fa fa-twitter-square fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="http://twitter.com/cbgoodman">@cbgoodman</a> on Twitter.</li>
+        <li><i class="fa-li fa fa-github fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="http://github.com/cbgoodman">On GitHub</a>.</li>
+        <li><i class=""></li>
+      </ul>
+    </div>
+<div class="unit-30">
+				<h3>subscribe</h3>
+				<p>To receive updates from this site, you can
+				subscribe to the <a href="https://www.cgoodman.com/index.xml"><i class="fa fa-rss-square" style="color:#03396c;"></i>&nbsp;RSS feed</a> of all updates to the site in an RSS feed reader</p>
+				<h3>search</h3>
+				<a id="searchsite">
+					<form method="get" action="https://duckduckgo.com/">
+				<input type="search" name="q" maxlength="255" placeholder="Search the site">
+			<input type="hidden" name="sites" value="www.cgoodman.com"/>
+			   <input type="hidden" name="k7" value="#faf8f8"/>
+			   <input type="hidden" name="kj" value="#b33"/>
+			   <input type="hidden" name="ky" value="#fafafa"/>
+			   <input type="hidden" name="kx" value="b"/>
+			   <input type="hidden" name="ko" value="-1"/>
+			   <input type="hidden" name="k1" value="-1"/>
+			   <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" /></form></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<footer id="footer">
+<section class="wrapper small">Powered by <a href="http://gohugo.io">Hugo</a> and <a href="http://imperavi.com/kube/">Kube</a>. &copy; Christopher B. Goodman 2021.
+</section>
+</footer>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-91992614-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+        'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+
+</script>
+
+</body>
+</html>

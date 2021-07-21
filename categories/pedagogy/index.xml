@@ -1,0 +1,87 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pedagogy on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/pedagogy/</link>
+    <description>Recent content in pedagogy on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 19 Jan 2020 17:47:17 -0600</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/pedagogy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I Record Lectures</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/01/19/how-i-record-lectures/</link>
+      <pubDate>Sun, 19 Jan 2020 17:47:17 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/01/19/how-i-record-lectures/</guid>
+      <description>&lt;p&gt;I am teaching online again and that means recording audio lectures. A lot has changed (or I perceive it to have changed) since the last time I did this so I endeavored to find a way to record/edit all my lectures on an iPad Pro. To be clear, I made this harder on myself by restricting everything to be done on an iPad. But I want something reasonably portable in case I need to record on the go.&lt;/p&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;On the hardware side, I already had a bit of equipment from my last attempts are recording lectures. I wanted high enough sound quality without having to buy too much stuff. I settled on a reasonably nice USB mic (see below) and used my NIU-issued iPad Pro.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/hardware.jpg&#34;
+         alt=&#34;hardware setup&#34; width=&#34;75%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Messy desk&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.audio-technica.com/cms/wired_mics/5879a6ca22e5aa7e/index.html&#34;&gt;audio-technica AT2020USB+&lt;/a&gt; Cardioid Condenser USB Microphone, though any USB mic will work&lt;/li&gt;
+&lt;li&gt;iPad Pro&lt;/li&gt;
+&lt;li&gt;An Apple Pencil (makes my editing life much better)&lt;/li&gt;
+&lt;li&gt;A USB-A to USB-C adapter&lt;/li&gt;
+&lt;li&gt;Various quality of life enhancements that are not required but very nice to have (a &lt;a href=&#34;https://www.audio-technica.com/cms/windscreens_mounts/4c067771f9e376ca/index.html&#34;&gt;compatible shock mount&lt;/a&gt;, a heavy mic stand, a good pair of monitor headphones)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most of this isn&amp;rsquo;t strictly necessary. Any USB mic will work. The Apple Pencil is a quality of life thing as is many of the other desktop accessories. The minimum required hardware is a mic, USB adapter, and an iPad.&lt;/p&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;Hardware is just a means to an end. I still have to talk into a microphone. There are plenty of ways to make this work on an iPad. Garage Band (pre-packaged on all(?) iOS devices) is a completely free way to do this, but it has some quirks that I found distasteful. Mainly, I couldn&amp;rsquo;t find an easy way to see how long I had recorded in real time. Searching for alternatives, I stumbled on Charlie Sorrel&amp;rsquo;s &lt;a href=&#34;https://www.cultofmac.com/596138/record-podcasts-ipad-only/&#34;&gt;three-part&lt;/a&gt;, &amp;ldquo;&lt;a href=&#34;https://www.cultofmac.com/596728/ipad-podcasting-apps/&#34;&gt;How to record podcasts on iPad&lt;/a&gt;&amp;rdquo; on &lt;a href=&#34;https://www.cultofmac.com/598570/how-i-edit-podcasts-with-apple-pencil-on-ipad-pro/&#34;&gt;Cult of Mac&lt;/a&gt; and pretty much followed the formula.&lt;/p&gt;
+&lt;p&gt;This required some specific paid software. I previous recorded/edited on a Mac using &lt;a href=&#34;https://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt;. It&amp;rsquo;s free, easy to use, and cross-platform if that&amp;rsquo;s important. Unfortunately, it&amp;rsquo;s not so cross-platform that I can use it on an iOS device. So I whipped out my credit card and headed to iTunes. A lot of these claim to be &amp;ldquo;free,&amp;rdquo; but I found the free versions are quite limited given what I wanted to do so I paid up. It appears many of these are small developers so I am more than happy to throw some cash their way for quality products.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/ipad-audio.jpg&#34;
+         alt=&#34;ipad screenshot&#34; width=&#34;75%&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;iPad Audio Software&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/aum-audio-mixer/id1055636344?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;AUM – Audio Mixer&lt;/a&gt; &amp;ndash; for recording&lt;/li&gt;
+&lt;li&gt;A noise reducing tool (I use &lt;a href=&#34;https://itunes.apple.com/us/app/brusfri/id1289165912?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;Brusfri&lt;/a&gt; that is compatible on its own and in-line with AUM)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itunes.apple.com/us/app/audioshare/id543859300?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;AudioShare&lt;/a&gt; &amp;ndash; audio file management plus some useful audio tools&lt;/li&gt;
+&lt;li&gt;Editing software (&lt;a href=&#34;https://itunes.apple.com/us/app/ferrite-recording-studio/id1018780185?mt=8&amp;amp;uo=4&amp;amp;at=10l3Wi&#34;&gt;Ferrite Recording Studio&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;AUM serves as my audio mixer and recording device (it can handle a number of audio inputs which is a nice perk should I ever decide to record with a partner) and I use Brusfri in-line as a noise reduction tool (my office is right below the main HVAC for the building and I didn&amp;rsquo;t want that hum in the recording). An added benefit of this set up is that I can use it as the voice over for screen captured video and voice over powerpoint. See &lt;a href=&#34;https://teddysvoronos.com/2018/12/04/producing-recording-editing-and-sharing-animated-videos-on-ipad/&#34;&gt;Teddy Svoronos&lt;/a&gt; at &lt;a href=&#34;https://www.hks.harvard.edu&#34;&gt;HKS&lt;/a&gt; for more on that. At this point, I talk into the microphone.&lt;/p&gt;
+&lt;p&gt;Editing is next. I use AudioShare mostly to level out any extreme peaks in the recording (it&amp;rsquo;s also integrated with AUM so it becomes very easy to categorize recordings) and then import it into Ferrite for editing. I mostly edit out the dead air and umms, but I sometimes get rid of whole passages that I don&amp;rsquo;t think hit right. I could insert new content here as well. I mostly follow Charlie&amp;rsquo;s &lt;a href=&#34;https://www.cultofmac.com/598570/how-i-edit-podcasts-with-apple-pencil-on-ipad-pro/&#34;&gt;method&lt;/a&gt; and the Apple Pencil is great here. Ferrite allows you to assign different actions to the pencil vs your finger. I have set up a left swipe of the pencil to select and delete. This makes it very simple to listen along and quickly edit out stuff.&lt;/p&gt;
+&lt;p&gt;All that&amp;rsquo;s left is to export to MP3 and upload to Blackboard. It seems like a lot, but I&amp;rsquo;ve found after the first one the process goes very quickly.&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s it! Recording high quality audio lectures with a small and very portable setup.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Students Writing Their Own Exam Questions</title>
+      <link>https://www.cgoodman.com/blog/archives/2019/09/11/students-writing-their-own-exam-questions/</link>
+      <pubDate>Wed, 11 Sep 2019 11:22:55 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2019/09/11/students-writing-their-own-exam-questions/</guid>
+      <description>&lt;p&gt;Writing good exam questions is hard. If done correctly, the student should have no idea the lengths you went through to write a good set of questions. But maybe they should know just how difficult it really is. This semester I tried an experiment: allow my masters students a chance to write their own midterm exam (with some pretty specific guidelines). We&amp;rsquo;ll see how it turns out, but so far I have been impressed with how much they have taken to the idea.&lt;/p&gt;
+&lt;h3 id=&#34;the-guidelines&#34;&gt;The guidelines&lt;/h3&gt;
+&lt;p&gt;After some course specific introductory text, I outline the three main parts of the task.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The intended learning outcome of the question&lt;/strong&gt;. What is it that you want a student to demonstrate knowledge of? The learning objectives of this course are a good starting place.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The problem situation&lt;/strong&gt;. What is the context of the question? This helps student’s ground their understanding of the question in the real world and better link it to the theoretical material in the course.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The essay question&lt;/strong&gt;. This essentially combines the previous two points. What aspects of the problem situation do you want the student to probe to demonstrate the learning outcome? This should take the form of application or integration (see the syllabus for definitions of these).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You can see the syllabus I am referring to on my &lt;a href=&#34;https://www.cgoodman.com/teaching/2019f-revenue/&#34;&gt;PSPA 611 page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The inspiration for these tasks comes from &lt;a href=&#34;https://testing.byu.edu/handbooks/WritingEffectiveEssayQuestions.pdf&#34;&gt;a handbook on preparing effective essay questions&lt;/a&gt;. I particularly like the first point about the learning objective. I&amp;rsquo;m not entirely sure students stop to take the time to think about what concepts an exam question is meant to probe beyond the immediate task in the question.&lt;/p&gt;
+&lt;p&gt;From here I diverge somewhat with &lt;a href=&#34;https://www.facultyfocus.com/articles/educational-assessment/student-written-exams-increase-student-involvement/&#34;&gt;what others have done&lt;/a&gt;. I offered this as a small amount of extra credit to anyone who turned in a proposed question. From this pool, I chose 3 questions (and added a 4th of my own to round out the topics) to appear on the exam. The exams are out in the wild right now so I don&amp;rsquo;t have a conclusion to this experiment just yet (consider this a pre-registration); however, if it goes as well as it appears to be going, I am plan to integrate this assignment into the midterm proper in future semesters.&lt;/p&gt;
+&lt;h3 id=&#34;take-aways-so-far&#34;&gt;Take aways so far&lt;/h3&gt;
+&lt;p&gt;Having thought about this quite a bit, I like the incentives baked into something like this. It gets the students to think about what they are learning in multiple ways that can be difficult to do otherwise. Specifying a learning objective allows them to be contemplative about the big topics in the course and then narrow them down to something more manageable. It also allows for application of these topics to a particular context; a context that the student is likely familiar with. In the &lt;a href=&#34;https://mpa.niu.edu&#34;&gt;NIU MPA program&lt;/a&gt;, we are particularly concerned with translating in-class experiences to the workplace.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; This small task allows some more abstract concepts to be applied.&lt;/p&gt;
+&lt;p&gt;Overall, I am fairly happy with how this experiment has gone so far.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;For context, our program requires all students to either be working in the public/non-profit sector or engaged in an internship. This allows for almost immediate translation of course concepts to the workplace.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

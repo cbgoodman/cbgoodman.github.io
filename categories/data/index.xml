@@ -1,0 +1,504 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/data/</link>
+    <description>Recent content in data on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:38:02 -0500</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Price of Residential Street Parking</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/09/15/the-price-of-residential-street-parking/</link>
+      <pubDate>Tue, 15 Sep 2020 11:38:02 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/09/15/the-price-of-residential-street-parking/</guid>
+      <description>&lt;p&gt;Cities, broadly, manage a number of public assets with which they provide public services. Some of those services are somewhat passive in the sense that no active labor aside from maintenance is being carried out. And others are more active in that the asset is being used by public sector employees or contractors to provide a public service. We generally think of the latter as the primary mode of public service delivery as it is more visible. We see the bus driver, the police officer, the firefighter, etc in our communities doing their jobs. But the passive service is no less important. We drive on roads, use water and sewer infrastructure (though this is a blended service), etc on a daily basis as we go about our lives. One of the big differences between these two kinds of services is how the public sector asks users to pay for them. Some services are supported through taxes, but a great many are supported through user fees. Below, I point out two approaches to this for getting around a central city: the cost of storing a vehicle on a public street versus the cost of using the transit system.&lt;/p&gt;
+&lt;p&gt;I choose these two the compare because they are roughly equivalent in their purpose (charging for the use of a public asset, roads v. a transit system), but the mode is different. Undoubtedly, there are private costs here as well. Car owners bear many costs associated with car ownership. Transit riders bear some private costs, mostly in their time, in using the transit system. But what we ask these two user groups to pay for the usage of a public asset is vastly different.&lt;/p&gt;
+&lt;p&gt;Below is the monthly cost of a residential parking permit&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; versus the cost of a monthly transit pass for the 30 largest U.S. cities. In nearly every large U.S. city, on-street, residential parking is essentially free. If these residents were to park in a private lot/garage/space (i.e. likely much closer to the market price for parking), it could be many hundreds of dollars per month in parking fees. This suggests the usage of this public asset is being severely underpriced. Meanwhile, public transit passes are significantly more expensive. In many cases, the monthly cost of a residential parking permit is less than a single fare on the central city transit system! While likely not covering the entire cost of public transit, the monthly transit pass is likely covering a much larger proportion of the per user cost of the transit system. It&amp;rsquo;s highly unlikely this is the case for street parking.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Pop. Rank&lt;/th&gt;
+&lt;th&gt;City&lt;/th&gt;
+&lt;th&gt;2017 Population&lt;/th&gt;
+&lt;th&gt;Monthly Street Parking Cost&lt;/th&gt;
+&lt;th&gt;Monthly Transit Pass Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;New York City, NY&lt;/td&gt;
+&lt;td&gt;8622698&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$127.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Los Angeles, CA&lt;/td&gt;
+&lt;td&gt;3999759&lt;/td&gt;
+&lt;td&gt;$2.83&lt;/td&gt;
+&lt;td&gt;$100.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Chicago, IL&lt;/td&gt;
+&lt;td&gt;2716450&lt;/td&gt;
+&lt;td&gt;$2.08&lt;/td&gt;
+&lt;td&gt;$105.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Houston, TX&lt;/td&gt;
+&lt;td&gt;2312717&lt;/td&gt;
+&lt;td&gt;$2.67&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Phoenix, AZ&lt;/td&gt;
+&lt;td&gt;1626078&lt;/td&gt;
+&lt;td&gt;$0.83&lt;/td&gt;
+&lt;td&gt;$64.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Philadelphia, PA&lt;/td&gt;
+&lt;td&gt;1580863&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$96.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;San Antonio, TX&lt;/td&gt;
+&lt;td&gt;1511946&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$38.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;San Diego, CA&lt;/td&gt;
+&lt;td&gt;1419516&lt;/td&gt;
+&lt;td&gt;$0.75&lt;/td&gt;
+&lt;td&gt;$72.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Dallas, TX&lt;/td&gt;
+&lt;td&gt;1341075&lt;/td&gt;
+&lt;td&gt;$0.54&lt;/td&gt;
+&lt;td&gt;$96.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;San Jose, CA&lt;/td&gt;
+&lt;td&gt;1035317&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Austin, TX&lt;/td&gt;
+&lt;td&gt;950715&lt;/td&gt;
+&lt;td&gt;$1.35&lt;/td&gt;
+&lt;td&gt;$41.25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Jacksonville, FL&lt;/td&gt;
+&lt;td&gt;892062&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;San Francisco, CA&lt;/td&gt;
+&lt;td&gt;884363&lt;/td&gt;
+&lt;td&gt;$12.00&lt;/td&gt;
+&lt;td&gt;$81.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Columbus, OH&lt;/td&gt;
+&lt;td&gt;879170&lt;/td&gt;
+&lt;td&gt;$2.08&lt;/td&gt;
+&lt;td&gt;$62.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Fort Worth, TX&lt;/td&gt;
+&lt;td&gt;874168&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$80.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;Indianapolis, IN&lt;/td&gt;
+&lt;td&gt;863002&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$60.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Charlotte, NC&lt;/td&gt;
+&lt;td&gt;859035&lt;/td&gt;
+&lt;td&gt;$2.50&lt;/td&gt;
+&lt;td&gt;$88.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;Seattle, WA&lt;/td&gt;
+&lt;td&gt;724745&lt;/td&gt;
+&lt;td&gt;$5.42&lt;/td&gt;
+&lt;td&gt;$99.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;Denver, CO&lt;/td&gt;
+&lt;td&gt;704621&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$114.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;Washington, DC&lt;/td&gt;
+&lt;td&gt;693972&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$81.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;Boston, MA&lt;/td&gt;
+&lt;td&gt;685094&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;El Paso, TX&lt;/td&gt;
+&lt;td&gt;683577&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$48.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;Detroit, MI&lt;/td&gt;
+&lt;td&gt;673104&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$70.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;Nashville, TN&lt;/td&gt;
+&lt;td&gt;667560&lt;/td&gt;
+&lt;td&gt;$0.83&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;Memphis, TN&lt;/td&gt;
+&lt;td&gt;652236&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;Portland, OR&lt;/td&gt;
+&lt;td&gt;647805&lt;/td&gt;
+&lt;td&gt;$6.25&lt;/td&gt;
+&lt;td&gt;$100.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;td&gt;Oklahoma City, OK&lt;/td&gt;
+&lt;td&gt;643648&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$50.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;Las Vegas, NV&lt;/td&gt;
+&lt;td&gt;641676&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;29&lt;/td&gt;
+&lt;td&gt;Louisville, KY&lt;/td&gt;
+&lt;td&gt;621349&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$50.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;Baltimore, MD&lt;/td&gt;
+&lt;td&gt;611648&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$74.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In these times of municipal fiscal distress, it is important to consider the costs of providing public services. Since residential street parking is often free (or minimally priced), the cost of upkeep and maintenance of street falls on all taxpayers through general taxation (usually the property tax). This is highly inequitable to non-street parking users who are asked to bear a portion of the cost while receiving no benefits.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; The public sector asks transit users to bear a much larger portion of the costs associated with their usage of the public transit infrastructure than car users are asked to bear.&lt;/p&gt;
+&lt;p&gt;Residential street parking could be a decent revenue source for large cities. Vast sums of money are spent on the provision and maintenance of roads and few mechanisms exist to explicitly capture revenues associated with the usage of roads.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Appropriately pricing residential street parking could do this in a direct way.&lt;/p&gt;
+&lt;p&gt;tl;dr: Street parking in nearly all U.S. cities is vastly underpriced.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;It is important to note that in many of these cities the residential parking permit system (or zones) do not cover the entire city. In a great many locations in these cities, street parking is essentially free (or uncharged for by the public sector).&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;This doesn&amp;rsquo;t consider the social costs imposed either.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The disconnect between the provision of roads and the revenues to pay for them is and will get worse as the efficiency of the gas tax (the connection between the amount of the tax and the usage of roads) further declines. This is driven by both the failure of the gas tax to be increased (most specifically at the federal level, but also in a number of states) and, paradoxically, the increased popularity of electric or hybrid vehicles that can avoid some or all of the gas tax&amp;rsquo;s intended purpose as a fee on road usage.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+    <item>
+      <title>State Collection of Local Government Public Finance Data</title>
+      <link>https://www.cgoodman.com/blog/archives/2017/03/31/state-collection-of-local-government-public-finance-data/</link>
+      <pubDate>Fri, 31 Mar 2017 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2017/03/31/state-collection-of-local-government-public-finance-data/</guid>
+      <description>&lt;p&gt;In a conversation with a few colleagues, the question came up of which states collect public finance data on their respective local governments. Over the years, I have been keeping a list of such resources just in case I might want/need to use the data for a project. It dawned on me that I probably should not be hoarding this resource.&lt;/p&gt;
+&lt;h3 id=&#34;jump-to-a-state&#34;&gt;Jump to a State&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#arizona&#34;&gt;Arizona&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#california&#34;&gt;California&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#colorado&#34;&gt;Colorado&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#connecticut&#34;&gt;Connecticut&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#florida&#34;&gt;Florida&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#georgia&#34;&gt;Georgia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#illinois&#34;&gt;Illinois&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#indiana&#34;&gt;Indiana&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#iowa&#34;&gt;Iowa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#michigan&#34;&gt;Michigan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#missouri&#34;&gt;Missouri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#north-carolina&#34;&gt;North Carolina&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pennsylvania&#34;&gt;Pennsylvania&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#virginia&#34;&gt;Virginia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;arizona-a-idarizonaa&#34;&gt;Arizona &lt;a id=&#34;arizona&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;No statewide datasets; however, there are a number of cities with open data portals. For instance,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.phoenix.gov/opendata&#34;&gt;City of Phoenix Open Data Portal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.tucsonaz.gov/&#34;&gt;City of Tucson  Open Data Portal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;california-a-idcaliforniaa&#34;&gt;California &lt;a id=&#34;california&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;California State Controller’s Office Local Government Data Portal
+&lt;ul&gt;
+&lt;li&gt;Cities, Counties, &amp;amp; Special Districts&lt;/li&gt;
+&lt;li&gt;2003-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bythenumbers.sco.ca.gov/explore-all-data&#34;&gt;California State Controller’s Office&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Assessed Valuation Raw Data
+&lt;ul&gt;
+&lt;li&gt;Cities, Counties, &amp;amp; Special Districts&lt;/li&gt;
+&lt;li&gt;2003-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bythenumbers.sco.ca.gov/Raw-Data/Assessed-Valuation-Raw-Data-for-Fiscal-Years-2003-/qky3-f2m4&#34;&gt;California State Controller’s Office&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;colorado-a-idcoloradoa&#34;&gt;Colorado &lt;a id=&#34;colorado&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Active Colorado Local Government Finances
+&lt;ul&gt;
+&lt;li&gt;Cities, Counties, School Districts, &amp;amp; Special Districts&lt;/li&gt;
+&lt;li&gt;Various years&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dola.colorado.gov/lgis/lgFinances.jsf;jsessionid=5b697b611a00513633ac35e75f91&#34;&gt;Colorado Department of Local Affairs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;connecticut-a-idconnecticuta&#34;&gt;Connecticut &lt;a id=&#34;connecticut&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Municipal Fiscal Indicators
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Towns&lt;/li&gt;
+&lt;li&gt;2003-2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ct.gov/opm/cwp/view.asp?a=2984&amp;amp;q=383170&amp;amp;opmNav_GID=1807&#34;&gt;CT Office of Policy &amp;amp; Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Equalized Net Grand List (Property Tax Valuations)
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Towns&lt;/li&gt;
+&lt;li&gt;2008-2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ct.gov/opm/cwp/view.asp?a=2987&amp;amp;q=385970&amp;amp;opmNav_GID=1807&#34;&gt;CT Office of Policy &amp;amp; Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Grand List Millage Rates
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Towns&lt;/li&gt;
+&lt;li&gt;2011-2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ct.gov/opm/cwp/view.asp?a=2987&amp;amp;q=385976&amp;amp;opmNav_GID=1807&#34;&gt;CT Office of Policy &amp;amp; Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;florida-a-idfloridaa&#34;&gt;Florida &lt;a id=&#34;florida&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Local Government Financial Reporting
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Counties&lt;/li&gt;
+&lt;li&gt;1993-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.fldfs.com/LocalGov/Reports/&#34;&gt;FL Chief Financial Officer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ad Valorem Tax Profiles
+&lt;ul&gt;
+&lt;li&gt;Cities, Counties, &amp;amp; School Districts&lt;/li&gt;
+&lt;li&gt;1995/1996/1997-2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.edr.state.fl.us/Content/local-government/data/data-a-to-z/a-f.cfm&#34;&gt;FL Office of Economic &amp;amp; Demographic Research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;georgia-a-idgeorgiaa&#34;&gt;Georgia &lt;a id=&#34;georgia&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Report of Local Government Finances
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Counties&lt;/li&gt;
+&lt;li&gt;1990-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dca.state.ga.us/development/research/programs/lgf.asp&#34;&gt;GA Department of Community Affairs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tax Digest Consolidated Summary
+&lt;ul&gt;
+&lt;li&gt;Cities, Counties, &amp;amp; School Districts&lt;/li&gt;
+&lt;li&gt;1990-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.dor.ga.gov/digestconsolidation/default.aspx&#34;&gt;GA Department of Revenue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;illinois-a-idillinoisa&#34;&gt;Illinois &lt;a id=&#34;illinois&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Financial Databases
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Counties&lt;/li&gt;
+&lt;li&gt;1994-2015&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://illinoiscomptroller.gov/services/local-government-division/financial-databases/?startRow=1&amp;amp;nextNID=9B25798B-4375-4309-975674A331173DCD&#34;&gt;IL Comptroller Local Government Division&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;indiana-a-idindianaa&#34;&gt;Indiana &lt;a id=&#34;indiana&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Annual Financial Reports
+&lt;ul&gt;
+&lt;li&gt;Cities, Towns, Townships, Counties, School Districts, &amp;amp; Special Districts&lt;/li&gt;
+&lt;li&gt;2011-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gateway.ifionline.org/report_builder/Default2.aspx?rptType=afr&amp;amp;rptVer=a&#34;&gt;IN Gateway for Government Units&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Assessed Value
+&lt;ul&gt;
+&lt;li&gt;Counties&lt;/li&gt;
+&lt;li&gt;2016-2017&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gateway.ifionline.org/report_builder/Default2.aspx?rptType=assessedValue&amp;amp;rptVer=a&#34;&gt;IN Gateway for Government Units&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Government Financial and Tax Reports
+&lt;ul&gt;
+&lt;li&gt;Cities, Towns, Townships, Counties, School Districts, &amp;amp; Special Districts&lt;/li&gt;
+&lt;li&gt;Various years&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gateway.ifionline.org/report_builder/&#34;&gt;IN Gateway for Government Units&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;iowa-a-idiowaa&#34;&gt;Iowa &lt;a id=&#34;iowa&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;City Budget and Actual Expenditures
+&lt;ul&gt;
+&lt;li&gt;Cities&lt;/li&gt;
+&lt;li&gt;2007-2017&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.iowa.gov/Government/City-Budget-and-Actual-Expenditures/jy6h-2e5x&#34;&gt;data.iowa.gov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Consolidated Property Tax Rates
+&lt;ul&gt;
+&lt;li&gt;All taxing districts&lt;/li&gt;
+&lt;li&gt;2002-2017&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.iowa.gov/Government/Consolidated-Property-Tax-Rates-by-Tax-District-An/7uts-ky8c&#34;&gt;data.iowa.gov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Taxable Property Values By Tax District
+&lt;ul&gt;
+&lt;li&gt;All taxing districts&lt;/li&gt;
+&lt;li&gt;2000-2013 (see data note)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.iowa.gov/Government/Taxable-Property-Values-By-Tax-District-and-Year/ig9g-pba5/&#34;&gt;data.iowa.gov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;michigan-a-idmichigana&#34;&gt;Michigan &lt;a id=&#34;michigan&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Online Audit Reports
+&lt;ul&gt;
+&lt;li&gt;Cities, Counties, Townships, &amp;amp; Villages&lt;/li&gt;
+&lt;li&gt;Numerous years&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://treas-secure.state.mi.us/LAFDocSearch/&#34;&gt;Michigan Department of Treasury Local Audit &amp;amp; Finance Division&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Office of Audits - Financial Statements
+&lt;ul&gt;
+&lt;li&gt;School Districts&lt;/li&gt;
+&lt;li&gt;2009-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://civilservice.state.mi.us/nxt/gateway.dll?f=templates&amp;amp;fn=default.htm&amp;amp;vid=mofa:fa&#34;&gt;Michigan Department of Education Office of Audits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;missouri-a-idmissouria&#34;&gt;Missouri &lt;a id=&#34;missouri&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Summary Report
+&lt;ul&gt;
+&lt;li&gt;Cities, Counties, Townships, &amp;amp; Villages&lt;/li&gt;
+&lt;li&gt;2005-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://f65.mitreasury.msu.edu/Reports/DataSummaryReport.aspx&#34;&gt;Missouri Department of Treasury&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;north-carolina-a-idnorth-carolinaa&#34;&gt;North Carolina &lt;a id=&#34;north-carolina&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;North Carolina County &amp;amp; Municipal Financial Information
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Counties&lt;/li&gt;
+&lt;li&gt;2008-2016&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nctreasurer.com/slg/lfm/financial-analysis/Pages/Analysis-by-Population.aspx&#34;&gt;NC Treasurer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pennsylvania-a-idpennsylvaniaa&#34;&gt;Pennsylvania &lt;a id=&#34;pennsylvania&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;County Annual Financial Reports
+&lt;ul&gt;
+&lt;li&gt;Counties&lt;/li&gt;
+&lt;li&gt;1986-2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://munstats.pa.gov/Reports/ReportInformation2.aspx?report=cAfrForm&#34;&gt;PA DCED Munstat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Municipal Annual Financial Reports
+&lt;ul&gt;
+&lt;li&gt;Cities&lt;/li&gt;
+&lt;li&gt;1986-2014&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://munstats.pa.gov/Reports/ReportInformation2.aspx?report=mAfrForm&#34;&gt;PA DCED Munstat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;virginia-a-idvirginiaa&#34;&gt;Virginia &lt;a id=&#34;virginia&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Local Revenue/Expenditures/Capital Expenditures of Virginia’s Counties &amp;amp; Cities
+&lt;ul&gt;
+&lt;li&gt;Cities &amp;amp; Counties&lt;/li&gt;
+&lt;li&gt;2002-2008&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dhcd.virginia.gov/index.php/commission-on-local-government/reports.html#Public-Finance&#34;&gt;VA Department of Housing an Community Development - Commission on Local Government &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you know of anything missing or a link is dead, please let me know. I will happily update the list (if I can).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

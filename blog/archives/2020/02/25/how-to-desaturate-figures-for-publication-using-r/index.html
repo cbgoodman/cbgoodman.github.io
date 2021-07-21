@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,partials=1">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1 minimal-ui">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@cbgoodman">
+<meta name="twitter:title" content="How to Desaturate Figures for Publication using R : cgoodman.com">
+<meta name="twitter:creator" content="@cbgoodman">
+<meta name="twitter:description" content="">
+<meta name="twitter:image:src" content="">
+<meta name="twitter:domain" content="cgoodman.com">
+
+
+    <base href="https://www.cgoodman.com/">
+    <title> How to Desaturate Figures for Publication using R </title>
+    <link rel="canonical" href="https://www.cgoodman.com/blog/archives/2020/02/25/how-to-desaturate-figures-for-publication-using-r/">
+    
+
+            <link rel="stylesheet" type="text/css" href="https://www.cgoodman.com/css/kube.css"  />
+        <link rel="stylesheet" type="text/css" href="https://www.cgoodman.com/css/demo.css"  />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+<script type="text/javascript" src="https://use.typekit.com/kpn7wwu.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+    <link rel="shortcut icon" href="https://www.cgoodman.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://www.cgoodman.com/apple-touch-icon.png" />
+</head>
+
+
+<body>
+<div id="topbar">
+<div class="wrapper">
+  <header>
+  <nav class="navbar">
+  <ul>
+    <li><a href="https://www.cgoodman.com/">Christopher B. Goodman</a></li>
+    
+    
+    <li><span> <a class="" href="https://www.cgoodman.com/cv">bio &amp; cv </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/research">Research </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/data">Data </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/teaching">Teaching </a></span>
+      
+    <li><span> <a class="" href="https://www.cgoodman.com/blog">Blog </a></span>
+      
+  </ul>
+</nav>
+
+  </header>
+</div>
+</div>
+
+<div class="wrapper">
+<div class="units-row">
+<div class="unit-20">&nbsp;</div>
+<div class="unit-60"><h2><a href="">How to Desaturate Figures for Publication using R</a></h2></div>
+</div>
+<div class="units-row">
+  <div class="unit-20 dateblock"><h4>February 25, 2020</h4>
+
+
+    
+    &middot; <a class="small" href="https://www.cgoodman.com/categories/dataviz">dataviz</a>
+    
+    &middot; <a class="small" href="https://www.cgoodman.com/categories/r">R</a>
+    
+
+
+  </div>
+<div class="unit-60">
+
+  <p>Many academic journals require figures in greyscale. This can be done relatively simply by printing to PDF as greyscale; however, this doesn&rsquo;t give you a) a way to preview what the resulting figure will look like and b) much control over the process of desaturation. If you&rsquo;re making figures in <code>R</code>, this process is almost as easy as the more simplistic print to PDF method.</p>
+<p>We&rsquo;ll need a few extra libraries before we can get started. The primary means we&rsquo;ll use to examine the desaturated figures (and look for issues with colorblindness) is <code>colorblindr</code>. This depends on the development versions of <code>cowplot</code> and <code>colorspace</code> (the latter we&rsquo;ll use to desaturate) so we need to make sure those two are install before we install <code>colorblindr</code>.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">devtools</span><span style="color:#ce5c00;font-weight:bold">::</span><span style="color:#000">install_github</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;wilkelab/cowplot&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">install.packages</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;colorspace&#34;</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">devtools</span><span style="color:#ce5c00;font-weight:bold">::</span><span style="color:#000">install_github</span><span style="color:#000;font-weight:bold">(</span><span style="color:#4e9a06">&#34;clauswilke/colorblindr&#34;</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><p>Once that&rsquo;s all done, we can load up <code>tidyverse</code> and our newly installed libraries and get to making a figure. This part is totally up to you, but I&rsquo;ve created a very common plot using the included <strong>mtcars</strong> data in <code>R</code>.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">tidyverse</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">cowplot</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">colorspace</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">library</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">colorblindr</span><span style="color:#000;font-weight:bold">)</span>
+
+<span style="color:#000">plot.data</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">mtcars</span>
+
+<span style="color:#000">p</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">ggplot</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">plot.data</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">aes</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">x</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">wt</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">y</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">mpg</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">color</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">factor</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">cyl</span><span style="color:#000;font-weight:bold">)))</span> <span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">geom_point</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">size</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#0000cf;font-weight:bold">3</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">theme_minimal</span><span style="color:#000;font-weight:bold">()</span>
+</code></pre></div><p>This uses the built in color scheme.</p>
+<figure><img src="files/misc/desaturate-ex1.png"/>
+</figure>
+<p>If we wanted to desaturate this figure, what would it look like? How would we know if there is appropriate color separation so the reader could determine the various <em>cyl</em> levels? <code>colorblindr</code> gives us two ways to preview this; one static and one interactive.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">cvd_grid</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">p</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic"># prints grid of colorblind types</span>
+<span style="color:#000">view_cvd</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">p</span><span style="color:#000;font-weight:bold">)</span> <span style="color:#8f5902;font-style:italic"># starts an interactive app</span>
+</code></pre></div><p>As can be seen below, the standard color palette in <code>ggplot</code> is ok (but not great) on three of the colorblindness scales, but completely falls flat on desaturation. There&rsquo;s no separation between the number of engine cylinders.</p>
+<figure><img src="files/misc/desaturate-ex2.png"/>
+</figure>
+<p>How can we fix this? First, we need a new color scale. I am partial to <em><a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">viridis</a></em> as it is designed to solve many of the problems outlined above (and built into <code>R</code>).</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">p.viridis</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">p</span> <span style="color:#ce5c00;font-weight:bold">+</span>
+  <span style="color:#000">scale_colour_viridis_d</span><span style="color:#000;font-weight:bold">()</span>
+</code></pre></div><figure><img src="files/misc/desaturate-ex3.png"/>
+</figure>
+<p>When we subject this new figure to our colorblindness test, it performs much better. Important for our purposes, there is ample separation for desaturation.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">cvd_grid</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">p.viridis</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><figure><img src="files/misc/desaturate-ex4.png"/>
+</figure>
+<h3 id="how-to-desaturate">How to desaturate</h3>
+<p>Once we have a figure that is amenable to desaturation, how do we do it? That&rsquo;s where <code>colorspace</code> comes in. It can do far more than we are going to use it for (see the <a href="https://cran.r-project.org/web/packages/colorspace/vignettes/colorspace.html">CRAN vignette for more info</a>), but it makes desaturating a breeze.</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">p.des.viridis</span> <span style="color:#ce5c00;font-weight:bold">&lt;-</span> <span style="color:#000">edit_colors</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">p.viridis</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">desaturate</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000">ggdraw</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">p.des.viridis</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><p>Using <code>edit_colors(foo, desaturate)</code>, we can completely desaturate our figure. And <code>ggdraw</code> plots the figure for easy viewing. As can be seen below, our mission is accomplished.</p>
+<figure><img src="files/misc/desaturate-ex5.png"/>
+</figure>
+<p>The last step is to save the figure for upload. I tend to save these files as PDFs; however, the journal likely has its own preferred file format (TIFF being really common).</p>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#000">ggsave</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000">plot</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#000">p.des.viridis</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#4e9a06">&#34;p_des_viridis.pdf&#34;</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">dpi</span><span style="color:#ce5c00;font-weight:bold">=</span><span style="color:#0000cf;font-weight:bold">300</span><span style="color:#000;font-weight:bold">,</span> <span style="color:#000">device</span> <span style="color:#ce5c00;font-weight:bold">=</span> <span style="color:#000">cairo_pdf</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></div><p>And that&rsquo;s it! Easy, reproducible desaturation (with a brief sidebar into colorblind friendly color palettes).</p>
+
+
+  
+
+<ul class="pagination">
+  
+  <li><a href="https://www.cgoodman.com/blog/archives/2020/01/31/total-local-governments-2017/">&laquo; <em>Previous</em> Total Local Governments, 2017</a></li>  
+  
+  <li><a href="https://www.cgoodman.com/blog/archives/2020/04/17/speculating-on-the-impact-of-covid-19-on-chicagoland-property-taxes/">&raquo; <em>Next</em> Speculating on the Impact of COVID-19 on Chicagoland Property Taxes</a></li>
+</ul> 
+
+<meta itemprop="wordCount" content="490">
+<meta itemprop="datePublished" content="2020-02-25">
+<meta itemprop="url" content="https://www.cgoodman.com/blog/archives/2020/02/25/how-to-desaturate-figures-for-publication-using-r/">
+
+
+
+        <a href="https://www.cgoodman.com/categories/">All Categories</a>
+
+
+  
+<div>
+
+
+
+
+
+<p><a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.cgoodman.com%2fblog%2farchives%2f2020%2f02%2f25%2fhow-to-desaturate-figures-for-publication-using-r%2f" target="_blank" aria-label="Facebook">
+  <div class="badge-facebook"><i class="fa fa-facebook"></i> &nbsp; Share on Facebook</div>
+</a>
+</p>
+<p>
+<a href="https://twitter.com/intent/tweet/?text=How%20to%20Desaturate%20Figures%20for%20Publication%20using%20R; https%3a%2f%2fwww.cgoodman.com%2fblog%2farchives%2f2020%2f02%2f25%2fhow-to-desaturate-figures-for-publication-using-r%2f" target="_blank" aria-label="Twitter">
+  <div class="badge-twitter "><i class = "fa fa-twitter"></i>&nbsp; Share on Twitter</div>
+</a>
+</p>
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+<hr class="separator">
+
+<div class="wrapper" style="font-size: 0.9em; line-height: 1.05em;">
+  <div class="units-row units-padding">
+    <div class="unit-40">
+      <h3><a id="about">about</a></h3>
+      <p>I teach about <a href="http://mpa.niu.edu/">public administration and local government</a> at <a href="http://www.niu.edu">Northern Illinois University</a>. <a href="cv/">Learn more</a>.</p>
+    </div>
+    <div class="unit-30">
+      <h3>Where</h3>
+      <ul class="compact fa-ul">
+        <li><i class="fa-li fa fa-university fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i>Department of Public Administration, Northern Illinois University, IA 204, DeKalb, Illinois 60115.</li>
+        <li><i class="fa-li fa fa-envelope fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="mailto:cbgoodman@niu.edu">cgoodman@niu.edu</a></li>
+        <li><i class="fa-li fa fa-twitter-square fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="http://twitter.com/cbgoodman">@cbgoodman</a> on Twitter.</li>
+        <li><i class="fa-li fa fa-github fa-fw" style="color:#03396c;font-size:80%;padding-top:6px;"></i><a href="http://github.com/cbgoodman">On GitHub</a>.</li>
+        <li><i class=""></li>
+      </ul>
+    </div>
+<div class="unit-30">
+				<h3>subscribe</h3>
+				<p>To receive updates from this site, you can
+				subscribe to the <a href="https://www.cgoodman.com/index.xml"><i class="fa fa-rss-square" style="color:#03396c;"></i>&nbsp;RSS feed</a> of all updates to the site in an RSS feed reader</p>
+				<h3>search</h3>
+				<a id="searchsite">
+					<form method="get" action="https://duckduckgo.com/">
+				<input type="search" name="q" maxlength="255" placeholder="Search the site">
+			<input type="hidden" name="sites" value="www.cgoodman.com"/>
+			   <input type="hidden" name="k7" value="#faf8f8"/>
+			   <input type="hidden" name="kj" value="#b33"/>
+			   <input type="hidden" name="ky" value="#fafafa"/>
+			   <input type="hidden" name="kx" value="b"/>
+			   <input type="hidden" name="ko" value="-1"/>
+			   <input type="hidden" name="k1" value="-1"/>
+			   <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;" /></form></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<footer id="footer">
+<section class="wrapper small">Powered by <a href="http://gohugo.io">Hugo</a> and <a href="http://imperavi.com/kube/">Kube</a>. &copy; Christopher B. Goodman 2021.
+</section>
+</footer>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-91992614-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+        'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+  })();
+
+(function(){var j=function(a,b){return window.getComputedStyle?getComputedStyle(a).getPropertyValue(b):a.currentStyle[b]};var k=function(a,b,c){if(a.addEventListener)a.addEventListener(b,c,false);else a.attachEvent('on'+b,c)};var l=function(a,b){for(key in b)if(b.hasOwnProperty(key))a[key]=b[key];return a};window.fitText=function(d,e,f){var g=l({'minFontSize':-1/0,'maxFontSize':1/0},f);var h=function(a){var b=e||1;var c=function(){a.style.fontSize=Math.max(Math.min(a.clientWidth/(b*10),parseFloat(g.maxFontSize)),parseFloat(g.minFontSize))+'px'};c();k(window,'resize',c)};if(d.length)for(var i=0;i<d.length;i++)h(d[i]);else h(d);return d}})();
+fitText(document.getElementById('title'), 1)
+
+</script>
+
+</body>
+</html>
