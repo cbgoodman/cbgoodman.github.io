@@ -1,0 +1,196 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Research on cgoodman.com </title>
+    <link>https://www.cgoodman.com/research/</link>
+    <language>en-us</language>
+    <author>Christopher B. Goodman</author>
+    <rights>Copyright (c) Christopher B. Goodman.</rights>
+    <updated>Sun, 20 Jun 2010 00:00:00 UTC</updated>
+    
+    <item>
+      <title>State Preemption and Affordable Housing Policy</title>
+      <link>https://www.cgoodman.com/research/preemption-housing/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/preemption-housing/</guid>
+      <description>&lt;p&gt;Many affordable housing policies are the domain of local governments. While subnational housing policies can be used to increase racial and economic segregation, they can also protect renters, and thus are not without controversy. Local affordable housing policies include inclusive zoning, rent control, short-term rental regulation, and source of income anti-discrimination. Starting in the 1980s, states began to preempt these local laws, preventing their cities from adopting affordable housing policies. We ask why states choose to preempt one or more of these four affordable housing policies. Using a cross-sectional, time-series dataset of preemptions, we find evidence that more conservative legislatures are more likely to adopt preemptions, while more professional legislatures and states with higher rental rates and previous preemptions are less likely to preempt. Contrary to expectations, interest group density, electoral competition, and policy diffusion are not significant predictors of preemption. For advocates and policymakers concerned with increasing affordable housing in their jurisdictions, these results raise unease about the ability to further an affordable housing agenda at the local level, particularly in more conservative political environments, suggesting instead affordable housing may need to return to the purview of the federal government.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@article&lt;/span&gt;{goodman-hatch-2022,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Goodman, Christopher B. and Hatch, Megan E.}&lt;/span&gt;,
+  doi = &lt;span style=&#34;color:#2aa198&#34;&gt;{10.1177/00420980221135410}&lt;/span&gt;,
+  journal = &lt;span style=&#34;color:#2aa198&#34;&gt;{Urban Studies}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{State Preemption and Affordable Housing Policy}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{forthcoming}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Are Special Districts Strategic Complements or Strategic Substitutes?</title>
+      <link>https://www.cgoodman.com/research/sd-gp/</link>
+      <pubDate>Wed, 12 Oct 2022 15:28:58 -0500</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/sd-gp/</guid>
+      <description>&lt;p&gt;What happens to service provision when a special district enters the public service market? Theoretically, special districts can act either as complements by supplementing existing service provision, or as substitutes by supplanting current service provision. We find a substitution effect using fixed effects regression on urban counties in the United States from 1972 to 2017. Special districts replace public service provision by county governments; however, we find no similar result for municipal governments. The results are nuanced – findings are confined mainly to spatially expansive public services like fire protection, sewerage, and solid waste management. Furthermore, we find evidence that day-to-day operations drive observed substitution and that county size is an important factor depending on the functional service area.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@unpublished&lt;/span&gt;{goodman-carroll-2022,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Goodman, Christopher B. and Carroll, Deborah A.}&lt;/span&gt;,
+  note = &lt;span style=&#34;color:#2aa198&#34;&gt;{Working Paper}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{Are Special Districts Strategic Complements or Strategic Substitutes?}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2022}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Forgotten Governments: Exploring Midwestern Township Capacities and Functional Service Responsibilities</title>
+      <link>https://www.cgoodman.com/research/townships/</link>
+      <pubDate>Thu, 04 Aug 2022 16:10:22 -0600</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/townships/</guid>
+      <description>&lt;p&gt;This field note provides both a foundation for discussion about the role of townships in local governance and empirical evidence of their unique and embedded role. Drawing on a survey administered to Illinois township supervisors, administrators, and assessors, it presents baseline indicators about the range of township services, managerial practices, assessment, and collaboration for services to better illuminate current services, capacities, and challenges. A greater understanding of the complexity of delivering township services can guide policymakers in their deliberations about the future of township governments and provide research propositions for investigating township  governments in the United States.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@article&lt;/span&gt;{jongetal2022,
+	author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Jong, Jahee and Goodman, Christopher B. and Deslatte, Aaron and Crabtree, Jerry and Thurmaier, Kurt}&lt;/span&gt;,
+	journal = &lt;span style=&#34;color:#2aa198&#34;&gt;{State \&amp;amp; Local Government Review}&lt;/span&gt;,
+	title = &lt;span style=&#34;color:#2aa198&#34;&gt;{The Forgotten Governments: Exploring Midwestern Township Capacities and Functional Service Responsibilities}&lt;/span&gt;,
+	year = &lt;span style=&#34;color:#2aa198&#34;&gt;{forthcoming}&lt;/span&gt;}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>What Lies Beneath these Creatures of the State: Understanding the Death of U.S. Local Governments</title>
+      <link>https://www.cgoodman.com/research/sd-dissolve/</link>
+      <pubDate>Fri, 01 Jul 2022 11:40:15 -0500</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/sd-dissolve/</guid>
+      <description>&lt;p&gt;After analyzing 35 years of census data on local government change, this study finds that the dissolution of special districts or “exits” in U.S. counties, are largely unrelated to demand factors. Using fixed effects regression specified at the all-county and urban county levels, we find that restrictions on the fiscal autonomy of cities are associated with decreases in the special district exit rate. There is also evidence that state grants of “broad” or “limited” functional home rule to cities increase special district dissolutions. These results appear to be driven by highly asset specific functions. The findings are consistent with the circumvention argument, made in the local autonomy literature, and may also indicate some service consolidation albeit from a different perspective.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@unpublished&lt;/span&gt;{goodman-leland-2022,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Goodman, Christopher B. and Leland, Suzanne M.}&lt;/span&gt;,
+  note = &lt;span style=&#34;color:#2aa198&#34;&gt;{Working Paper}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{What Lies Beneath these Creatures of the State: Understanding the Birth and Death of U.S. Local Governments}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2022}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Role of Special Districts and Intergovernmental Constraints</title>
+      <link>https://www.cgoodman.com/research/sd-institutions/</link>
+      <pubDate>Mon, 09 May 2022 15:57:56 -0500</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/sd-institutions/</guid>
+      <description>&lt;p&gt;The United States’ federal system is awash in local governments. As of 2017, the year of the last complete Census of Governments, there are 90,075 independent units of local government. Among the various forms of local government used, a plurality is a form of special-purpose local government called a special district. These districts are often single function (but sometimes not), sometimes conform to city or county boundaries (but sometimes not), and overlap all other forms of local government, including other special districts. The services provided by special districts are typically not unique; general-purpose local governments often provide the same services in other areas. The three most common special district functions include fire protection, housing and community development, and water supply – all functions provided by general-purpose local governments. The initial setup begs the question: Why do special districts exist? Moreover, perhaps more pressing, what are the implications for local fiscal outcomes?&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@incollection&lt;/span&gt;{goodman-2022,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Goodman, Christopher B.}&lt;/span&gt;,
+  address = &lt;span style=&#34;color:#2aa198&#34;&gt;{Cheltenham, UK}&lt;/span&gt;,
+  booktitle = &lt;span style=&#34;color:#2aa198&#34;&gt;{Research Handbook on City and Municipal Finance}&lt;/span&gt;,
+  editor = &lt;span style=&#34;color:#2aa198&#34;&gt;{Ross, Justin M. and Moldogazı, Temu and Johnson, Craig L.}&lt;/span&gt;,
+  publisher = &lt;span style=&#34;color:#2aa198&#34;&gt;{Edward Elgar Publishing}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{The Role of Special Districts and Intergovernmental Constraints}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2022}&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Neighborhood Institutions and Residential Home Sales: Evaluating the Impact of Property Tax Exemptions</title>
+      <link>https://www.cgoodman.com/research/tax-exempt/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/tax-exempt/</guid>
+      <description>&lt;p&gt;We focus on the urban amenities of “neighborhood institutions,” which are the myriad localized governments and nonprofits, such as religious and educational institutions, that provide public or quasi-public services to their neighborhoods. We examine whether neighborhood institutions positively impact their surrounding neighborhoods by utilizing property tax exemption records from the City of Milwaukee, Wisconsin, during 2002-2016. We combine these records with parcel-level data on residential home sales to identify each institution&amp;rsquo;s exact location and type. Using a traditional hedonic model and a repeat sales model, we examine the influence of nearby tax-exempt properties on residential home sales. We find from the repeat sales model that close proximity (0m-250m) to educational properties, labor halls, and utilities are associated with lower home sale prices, all else equal. We find a sporadic and limited positive correlation with nearby colleges and cemeteries and home sale prices.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@article&lt;/span&gt;{carroll-goodman-2022,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Carroll, Deborah A. and Goodman, Christopher B.}&lt;/span&gt;,
+  doi = &lt;span style=&#34;color:#2aa198&#34;&gt;{10.1007/s11146-020-09808-y}&lt;/span&gt;,
+  journal = &lt;span style=&#34;color:#2aa198&#34;&gt;{The Journal of Real Estate Finance and Economics}&lt;/span&gt;,
+  pages = &lt;span style=&#34;color:#2aa198&#34;&gt;{247-273}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{Neighborhood Institutions and Residential Home Sales: Evaluating the Impact of Property Tax Exemptions}&lt;/span&gt;,
+  volume = &lt;span style=&#34;color:#2aa198&#34;&gt;{64}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2022}&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Political Fragmentation &amp; Economic Growth in U.S. Metropolitan Areas</title>
+      <link>https://www.cgoodman.com/research/frag-grow/</link>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/frag-grow/</guid>
+      <description>&lt;p&gt;This paper analyzes the impact of local political fragmentation on population, employment, and per capita money income growth in 314 U.S. metropolitan areas. The results are mixed. Smaller central cities and more special district overlap are important for population growth. The findings do not generalize to employment or per capita money income growth. These findings mask important regional variation: political fragmentation is largely unrelated to economic growth in Midwestern and Western metropolitan areas. These results partially support the hypothesis that governmental fragmentation can enhance local economic growth; however, the overall impact appears muted relative to a metropolitan area&amp;rsquo;s economic characteristics.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@article&lt;/span&gt;{goodman-2021-jua,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Goodman, Christopher B.}&lt;/span&gt;,
+  doi = &lt;span style=&#34;color:#2aa198&#34;&gt;{10.1080/07352166.2020.1742578}&lt;/span&gt;,
+  journal = &lt;span style=&#34;color:#2aa198&#34;&gt;{Journal of Urban Affairs}&lt;/span&gt;,
+  number = &lt;span style=&#34;color:#2aa198&#34;&gt;{9}&lt;/span&gt;,
+  pages = &lt;span style=&#34;color:#2aa198&#34;&gt;{1355-1376}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{Political Fragmentation \&amp;amp; Economic Growth in U.S. Metropolitan Areas}&lt;/span&gt;,
+  volume = &lt;span style=&#34;color:#2aa198&#34;&gt;{43}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2021}&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>State Preemption of Local Laws: Origins and Modern Trends</title>
+      <link>https://www.cgoodman.com/research/preemption-history/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/preemption-history/</guid>
+      <description>&lt;p&gt;American cities are creatures of their states, with states both granting and limiting the power of their cities. This relationship is characterized by how cooperative or competitive states are with cities in their legislation. Despite the recent attention given to state preemption of local laws, this is not a new phenomenon. Part of the confusion surrounding preemption is that there is no shared definition or understanding of its forms. The purpose of this article is to begin to create that shared conception. In doing so, we define preemption according to its historic origins as the use of coercive methods to substitute state priorities for local policymaking. We argue modern state preemption of local laws can be divided into four phases, each with their own policies and mechanisms. We show how preemption has changed over time, shifting the functional, legal, and political relationship between states and their cities. Together, these phases help assist policymakers and administrators in understanding the nature of state preemption, and thus how to create and implement local policies in an environment where the distribution of power between governments is competitive and changing.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@article&lt;/span&gt;{goodman-hatch-mcdonald-2020-ppmg,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Goodman, Christopher B. and Hatch, Megan E. and McDonald III, Bruce D.}&lt;/span&gt;,
+  doi = &lt;span style=&#34;color:#2aa198&#34;&gt;{10.1093/ppmgov/gvaa018}&lt;/span&gt;,
+  journal = &lt;span style=&#34;color:#2aa198&#34;&gt;{Perspectives on Public Management \&amp;amp; Governance}&lt;/span&gt;,
+  number = &lt;span style=&#34;color:#2aa198&#34;&gt;{2}&lt;/span&gt;,
+  pages = &lt;span style=&#34;color:#2aa198&#34;&gt;{146--158}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{State Preemption of Local Laws: Origins and Modern Trends}&lt;/span&gt;,
+  volume = &lt;span style=&#34;color:#2aa198&#34;&gt;{4}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2021}&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Truth about Honesty in the Nonprofit Sector</title>
+      <link>https://www.cgoodman.com/research/benfords/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/benfords/</guid>
+      <description>&lt;p&gt;The nonprofit sector aims to provide services with a public benefit, but how honest is it? Since the nonprofit sector relies on fundraising efforts to support its administration and program costs, and since poor financial performance can scare potential contributors away, nonprofit organizations have an incentive to appear fiscally healthy regardless of their true condition. We examine the factors associated with the honesty of organizations in the nonprofit sector using Benford&amp;rsquo;s Law, which tests for abnormalities in data that result from intentional falsification. Using the 990 tax filings for 51,010 nonprofits in the United States from 2012 and 2013, we find evidence of problems in the accuracy of their financial reporting. Those organizations with more external users of their financial information tend to conform more closely with Benford&amp;rsquo;s Law, suggesting more external monitoring of non-profit organizations may decrease the likelihood of misreported financial information.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@article&lt;/span&gt;{mcdonald-goodman-2021-paq,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{McDonald III, Bruce D. and Goodman, Christopher B.}&lt;/span&gt;,
+  doi = &lt;span style=&#34;color:#2aa198&#34;&gt;{10.37808/paq.45.2.4}&lt;/span&gt;,
+  journal = &lt;span style=&#34;color:#2aa198&#34;&gt;{Public Administration Quarterly}&lt;/span&gt;,
+  number = &lt;span style=&#34;color:#2aa198&#34;&gt;{2}&lt;/span&gt;,
+  pages = &lt;span style=&#34;color:#2aa198&#34;&gt;{188--210}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{The Truth about Honesty in the Nonprofit Sector}&lt;/span&gt;,
+  volume = &lt;span style=&#34;color:#2aa198&#34;&gt;{45}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2021}&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Consequences of Specialized Governance on Spending and Expansion of Public Transit</title>
+      <link>https://www.cgoodman.com/research/specialized-governance/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/specialized-governance/</guid>
+      <description>&lt;p&gt;Special-purpose governments are commonly characterised as hidden governments with less taxpayer accountability and can issue debt. However, little research has been conducted to see if operating and capital expenses are driven by the public’s perception of need or are a policy consequence of functional specialisation. The following study tests how problem salience and form of government interact to impact local governments’ expenditures. We use National Transit Data (2013–2014) to test these moderating relationships. Our findings indicate that at least in the context of public transit, service area characteristics play a larger role in the spending and expansion than either the form of government or issue salience (as measured in this paper). This also indicates that the moderating effect of salience and governance does not appear to be significant for public transit policy.&lt;/p&gt;
+&lt;h3 id=&#34;bibtex-citation&#34;&gt;BibTeX Citation&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bib&#34; data-lang=&#34;bib&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;@article&lt;/span&gt;{goodman-leland-smirnova-2021-lgs,
+  author = &lt;span style=&#34;color:#2aa198&#34;&gt;{Goodman, Christopher B. and Leland, Suzanne M. and Smirnova, Olga}&lt;/span&gt;,
+  doi = &lt;span style=&#34;color:#2aa198&#34;&gt;{10.1080/03003930.2020.1744571}&lt;/span&gt;,
+  journal = &lt;span style=&#34;color:#2aa198&#34;&gt;{Local Government Studies}&lt;/span&gt;,
+  number = &lt;span style=&#34;color:#2aa198&#34;&gt;{2}&lt;/span&gt;,
+  pages = &lt;span style=&#34;color:#2aa198&#34;&gt;{296--311}&lt;/span&gt;,
+  title = &lt;span style=&#34;color:#2aa198&#34;&gt;{The Consequences of Specialized Governance on Spending and Expansion of Public Transit}&lt;/span&gt;,
+  volume = &lt;span style=&#34;color:#2aa198&#34;&gt;{47}&lt;/span&gt;,
+  year = &lt;span style=&#34;color:#2aa198&#34;&gt;{2021}&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

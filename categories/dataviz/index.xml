@@ -1,0 +1,197 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataviz on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/dataviz/</link>
+    <description>Recent content in dataviz on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 25 Jan 2023 14:27:51 -0600</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/dataviz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Illinois Special Districts Per Capita, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2023/01/25/illinois-special-districts-per-capita-2017/</link>
+      <pubDate>Wed, 25 Jan 2023 14:27:51 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2023/01/25/illinois-special-districts-per-capita-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/il-cog-17-pcspdist.png&#34;
+         alt=&#34;IL special districts per capita.&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Illinois independent special districts per 10,000 residents, 2017.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Horizontal v. Vertical Fragmentation</title>
+      <link>https://www.cgoodman.com/blog/archives/2022/01/25/horizontal-v.-vertical-fragmentation/</link>
+      <pubDate>Tue, 25 Jan 2022 18:24:38 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2022/01/25/horizontal-v.-vertical-fragmentation/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/bivariate.png&#34;
+         alt=&#34;Bivariate Map of Horizontal and Vertical Fragmentation in the U.S.&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Bivariate map of county level municipalities per 10,000 residents v. special districts per 10,000 residents.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Municipal Incorporation in the US, 1789 - 2020</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/12/07/municipal-incorporation-in-the-us-1789-2020/</link>
+      <pubDate>Tue, 07 Dec 2021 19:29:57 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/12/07/municipal-incorporation-in-the-us-1789-2020/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/us_animated_compressed.gif&#34;
+         alt=&#34;Animation of municipal incorporations in the US by year&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;An easier to share version is below.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/J7WjPgGAnJc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Municipal Fragmentation in U.S. Metro Areas in 3 Maps</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/04/16/municipal-fragmentation-in-u.s.-metro-areas-in-3-maps/</link>
+      <pubDate>Fri, 16 Apr 2021 15:52:02 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/04/16/municipal-fragmentation-in-u.s.-metro-areas-in-3-maps/</guid>
+      <description>&lt;p&gt;Over on Twitter, Dan Immergluck (GSU) asked about what municipal fragmentation in the U.S. at the metropolitan level looked like. I, an expert on local government fragmentation, saw it as my duty to get to the bottom of this. I have the data to do it. It only needs to be reworked slightly.&lt;/p&gt;
+&lt;p&gt;Ultimately, it matters which CBSAs you include in how the map (and rankings) look. This is obvious but essential. Including the smaller CBSAs (50,000 to 250,000 in population) leads to many of these smaller areas dominating the rankings, largely in the Upper Midwest and Plains.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/munifrag-ragg.png&#34;
+         alt=&#34;Municipal fragmentation, 2017, all CBSAs&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Limiting the sample of CBSAs to those larger than 250,000 changes things slightly, with the center of gravity moving south and east somewhat.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/munifrag-250k-ragg.png&#34;
+         alt=&#34;Municipal fragmentation, 2017, CBSAs larger than 250,000&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Lastly, constraining the sample to only those CBSAs larger than 1,000,000 in population gives the prototypical ranking with Pittsburgh and St. Louis at the top of the list. Generally, the most fragmented CBSAs are located in Rust Belt areas.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/munifrag-1m-ragg.png&#34;
+         alt=&#34;Municipal fragmentation, 2017, CBSAs larger than 1,000,000&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;H/T to Andrew Rumbach (TAMU) for suggesting these maps needed a permanent home (more permanent than Twitter).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Per Capita Independent Special Districts, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/06/16/per-capita-independent-special-districts-2017/</link>
+      <pubDate>Tue, 16 Jun 2020 10:45:34 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/06/16/per-capita-independent-special-districts-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totspdistdpc-cog-17.png&#34;
+         alt=&#34;Map of all independent special districts per capita by county&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;2017 Census of Governments&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Independent special districts per capita by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Per Capita General-Purpose Local Governments, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/05/16/per-capita-general-purpose-local-governments-2017/</link>
+      <pubDate>Sat, 16 May 2020 18:08:32 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/05/16/per-capita-general-purpose-local-governments-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totgenpurposepc-cog-17.png&#34;
+         alt=&#34;Map of general purpose local governments per capita by county&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;General purpose local governments per capita by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Per Capita Local Governments, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/05/07/per-capita-local-governments-2017/</link>
+      <pubDate>Thu, 07 May 2020 18:03:34 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/05/07/per-capita-local-governments-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totgovpc-cog-17-decile.png&#34;
+         alt=&#34;Map of all local governments per capita by county&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;2017 Census of Governments&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Local governments per capita by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to Desaturate Figures for Publication using R</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/02/25/how-to-desaturate-figures-for-publication-using-r/</link>
+      <pubDate>Tue, 25 Feb 2020 10:26:25 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/02/25/how-to-desaturate-figures-for-publication-using-r/</guid>
+      <description>&lt;p&gt;Many academic journals require figures in greyscale. This can be done relatively simply by printing to PDF as greyscale; however, this doesn&amp;rsquo;t give you a) a way to preview what the resulting figure will look like and b) much control over the process of desaturation. If you&amp;rsquo;re making figures in &lt;code&gt;R&lt;/code&gt;, this process is almost as easy as the more simplistic print to PDF method.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll need a few extra libraries before we can get started. The primary means we&amp;rsquo;ll use to examine the desaturated figures (and look for issues with colorblindness) is &lt;code&gt;colorblindr&lt;/code&gt;. This depends on the development versions of &lt;code&gt;cowplot&lt;/code&gt; and &lt;code&gt;colorspace&lt;/code&gt; (the latter we&amp;rsquo;ll use to desaturate) so we need to make sure those two are install before we install &lt;code&gt;colorblindr&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;devtools&lt;span style=&#34;color:#719e07&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;install_github&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;wilkelab/cowplot&amp;#34;&lt;/span&gt;)
+&lt;span style=&#34;color:#268bd2&#34;&gt;install.packages&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;colorspace&amp;#34;&lt;/span&gt;)
+devtools&lt;span style=&#34;color:#719e07&#34;&gt;::&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;install_github&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;clauswilke/colorblindr&amp;#34;&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once that&amp;rsquo;s all done, we can load up &lt;code&gt;tidyverse&lt;/code&gt; and our newly installed libraries and get to making a figure. This part is totally up to you, but I&amp;rsquo;ve created a very common plot using the included &lt;strong&gt;mtcars&lt;/strong&gt; data in &lt;code&gt;R&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;library&lt;/span&gt;(tidyverse)
+&lt;span style=&#34;color:#268bd2&#34;&gt;library&lt;/span&gt;(cowplot)
+&lt;span style=&#34;color:#268bd2&#34;&gt;library&lt;/span&gt;(colorspace)
+&lt;span style=&#34;color:#268bd2&#34;&gt;library&lt;/span&gt;(colorblindr)
+
+plot.data &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; mtcars
+
+p &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;ggplot&lt;/span&gt;(plot.data, &lt;span style=&#34;color:#268bd2&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt; wt, y &lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt; mpg, color &lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;factor&lt;/span&gt;(cyl))) &lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;geom_point&lt;/span&gt;(size &lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#2aa198&#34;&gt;3&lt;/span&gt;) &lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme_minimal&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This uses the built in color scheme.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/desaturate-ex1.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;If we wanted to desaturate this figure, what would it look like? How would we know if there is appropriate color separation so the reader could determine the various &lt;em&gt;cyl&lt;/em&gt; levels? &lt;code&gt;colorblindr&lt;/code&gt; gives us two ways to preview this; one static and one interactive.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;cvd_grid&lt;/span&gt;(p) &lt;span style=&#34;color:#586e75&#34;&gt;# prints grid of colorblind types&lt;/span&gt;
+&lt;span style=&#34;color:#268bd2&#34;&gt;view_cvd&lt;/span&gt;(p) &lt;span style=&#34;color:#586e75&#34;&gt;# starts an interactive app&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As can be seen below, the standard color palette in &lt;code&gt;ggplot&lt;/code&gt; is ok (but not great) on three of the colorblindness scales, but completely falls flat on desaturation. There&amp;rsquo;s no separation between the number of engine cylinders.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/desaturate-ex2.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;How can we fix this? First, we need a new color scale. I am partial to &lt;em&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html&#34;&gt;viridis&lt;/a&gt;&lt;/em&gt; as it is designed to solve many of the problems outlined above (and built into &lt;code&gt;R&lt;/code&gt;).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;p.viridis &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; p &lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;scale_colour_viridis_d&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;&lt;img src=&#34;files/misc/desaturate-ex3.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;When we subject this new figure to our colorblindness test, it performs much better. Important for our purposes, there is ample separation for desaturation.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;cvd_grid&lt;/span&gt;(p.viridis)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;&lt;img src=&#34;files/misc/desaturate-ex4.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;how-to-desaturate&#34;&gt;How to desaturate&lt;/h3&gt;
+&lt;p&gt;Once we have a figure that is amenable to desaturation, how do we do it? That&amp;rsquo;s where &lt;code&gt;colorspace&lt;/code&gt; comes in. It can do far more than we are going to use it for (see the &lt;a href=&#34;https://cran.r-project.org/web/packages/colorspace/vignettes/colorspace.html&#34;&gt;CRAN vignette for more info&lt;/a&gt;), but it makes desaturating a breeze.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;p.des.viridis &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;edit_colors&lt;/span&gt;(p.viridis, desaturate)
+&lt;span style=&#34;color:#268bd2&#34;&gt;ggdraw&lt;/span&gt;(p.des.viridis)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Using &lt;code&gt;edit_colors(foo, desaturate)&lt;/code&gt;, we can completely desaturate our figure. And &lt;code&gt;ggdraw&lt;/code&gt; plots the figure for easy viewing. As can be seen below, our mission is accomplished.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/desaturate-ex5.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;The last step is to save the figure for upload. I tend to save these files as PDFs; however, the journal likely has its own preferred file format (TIFF being really common).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-R&#34; data-lang=&#34;R&#34;&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;ggsave&lt;/span&gt;(plot&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;p.des.viridis, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;p_des_viridis.pdf&amp;#34;&lt;/span&gt;, dpi&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;300&lt;/span&gt;, device &lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt; cairo_pdf)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And that&amp;rsquo;s it! Easy, reproducible desaturation (with a brief sidebar into colorblind friendly color palettes).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Total Local Governments, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/01/31/total-local-governments-2017/</link>
+      <pubDate>Fri, 31 Jan 2020 17:57:21 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/01/31/total-local-governments-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totgov-cog-17.png&#34;
+         alt=&#34;Map of all local governments by county&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;2017 Census of Governments&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Absolute number of local governments by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Custom Coefficient Graphs</title>
+      <link>https://www.cgoodman.com/blog/archives/2019/12/03/custom-coefficient-graphs/</link>
+      <pubDate>Tue, 03 Dec 2019 11:33:45 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2019/12/03/custom-coefficient-graphs/</guid>
+      <description>&lt;p&gt;Recently, I was asked by a reviewer to include a large number of regression results in a manuscript I am revising. In my experience, attempting to display more than a few regression results in tabular format is a fool&amp;rsquo;s errand so I went looking for a more visual means of delivering the content. My attempt at doing this is complicated by the estimation taking place in one piece of software (Stata) and visualization taking place in another ( R ).&lt;/p&gt;
+&lt;p&gt;This disconnect between estimation and visualization adds an extra step (and could be solved by doing the estimation in R, something I have decided not to do for the time being) and prevents me from using one of the many R packages for coefficient plotting. Therefore, I estimate 4 regressions in Stata (using my preferred &lt;code&gt;reghdfe&lt;/code&gt; command) and extract the coefficients, standard errors, and standard deviation (for standardization) of each variable along with the model label. I then move over to R. Borrowing heavily from &lt;a href=&#34;https://thomasleeper.com/Rcourse/Tutorials/olscoefplot.html&#34;&gt;Thomas Leeper&lt;/a&gt; and &lt;a href=&#34;https://gist.github.com/andrewheiss/91250f9d23e889b30ccf&#34;&gt;Andrew Heiss&lt;/a&gt;, I import the data, standardize the coefficients and standard errors, and build the plot (see below).&lt;/p&gt;
+&lt;script type=&#34;application/javascript&#34; src=&#34;https://gist.github.com/cbgoodman/e0f399f3e8d691a9907285a406d050ec.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;The primary issue is the 4 models are highly related so using something like &lt;code&gt;facet_wrap&lt;/code&gt; is a bit inappropriate. I want the coefficients stacked. This is easily achieved using the &lt;code&gt;group&lt;/code&gt; option in &lt;code&gt;geom_pointrange&lt;/code&gt;. A little adjustment is necessary to get the points and ranges to be more visible in what will eventually be a printed figure. The output can be seen below.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/popgrow-coeff.png&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;I think this is a very clean way to display a lot of dense information. An added benefit is &lt;code&gt;facet_wrap&lt;/code&gt; can be used for subgroup analysis.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

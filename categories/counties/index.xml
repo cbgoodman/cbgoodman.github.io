@@ -1,0 +1,93 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>counties on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/counties/</link>
+    <description>Recent content in counties on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Nov 2018 17:32:26 -0600</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/counties/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>County Supervisors per 100,000 Residents</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/11/30/county-supervisors-per-100000-residents/</link>
+      <pubDate>Fri, 30 Nov 2018 17:32:26 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/11/30/county-supervisors-per-100000-residents/</guid>
+      <description>&lt;p&gt;Created in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;ggplot2&lt;/code&gt;. The relevant code is below.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/supervisors.png&#34;
+         alt=&#34;County supervisors per 100,000 residents&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;County supervisors per 100,000 residents&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Full code and data can be found on &lt;a href=&#34;https://github.com/cbgoodman/county-elect&#34;&gt;Github&lt;/a&gt;. Code to create the figure can be found below.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;
+&lt;span style=&#34;color:#268bd2&#34;&gt;library&lt;/span&gt;(tidyverse)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# read in data&lt;/span&gt;
+county &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;read.csv&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;county.csv&amp;#34;&lt;/span&gt;)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# calculate supervisors per 100,000 population&lt;/span&gt;
+county&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;pc.supervisor &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; county&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;supervisors&lt;span style=&#34;color:#719e07&#34;&gt;/&lt;/span&gt;(county&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;pop17&lt;span style=&#34;color:#719e07&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;100000&lt;/span&gt;)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# create annotation&lt;/span&gt;
+
+annot &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;read.table&lt;/span&gt;(text&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;
+  &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;county|number|just|text
+&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;  15.5|0.625|0|Broward &amp;amp; Orange County, FL are the median county&amp;lt;br&amp;gt;with 0.45 supervisors per 100,000 residents.
+&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;  40.5|0.375|1|Some of the largest U.S. counties have the&amp;lt;br&amp;gt;fewest supervisors per 100,000 residents.&amp;#34;&lt;/span&gt;,
+  sep&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;|&amp;#34;&lt;/span&gt;, header&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;TRUE&lt;/span&gt;, stringsAsFactors&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;FALSE&lt;/span&gt;)
+annot&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;text &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;gsub&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;&amp;lt;br&amp;gt;&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;, annot&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;text)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# plot&lt;/span&gt;
+p &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;ggplot&lt;/span&gt;(data&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;county,
+  &lt;span style=&#34;color:#268bd2&#34;&gt;aes&lt;/span&gt;(x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;reorder&lt;/span&gt;(county, &lt;span style=&#34;color:#719e07&#34;&gt;-&lt;/span&gt;pc.supervisor), y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;pc.supervisor, width&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.9&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;geom_bar&lt;/span&gt;(stat&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;, fill&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;#E69F00&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;scale_y_continuous&lt;/span&gt;(breaks&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;seq&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;1.75&lt;/span&gt;, by&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.25&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# read in annotations&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;geom_label&lt;/span&gt;(data&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;annot, &lt;span style=&#34;color:#268bd2&#34;&gt;aes&lt;/span&gt;(x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;county, y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;number, label&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;text, hjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;just),
+    family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Light&amp;#34;&lt;/span&gt;, lineheight&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.95&lt;/span&gt;,
+    size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;3.5&lt;/span&gt;, label.size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0&lt;/span&gt;, color&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;#2b2b2b&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# Theming&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;labs&lt;/span&gt;(
+    title&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Boards of supervisors tend to be small relative to population&amp;#34;&lt;/span&gt;,
+    subtitle&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;County supervisors/commissioners per 100,000 residents, 40 largest U.S. counties, 2017&amp;#34;&lt;/span&gt;,
+    caption&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Author: Chris Goodman (@cbgoodman), Data: U.S. Census Bureau &amp;amp; Author&amp;#39;s calculations.&amp;#34;&lt;/span&gt;,
+    y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;NULL&lt;/span&gt;,
+    x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;NULL&lt;/span&gt;) &lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme_minimal&lt;/span&gt;(base_family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Light&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# light, dotted major y-grid lines only&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.major.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;(color&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;#2b2b2b&amp;#34;&lt;/span&gt;, linetype&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;dotted&amp;#34;&lt;/span&gt;, size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.15&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.major.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.minor.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.minor.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# light x-axis line only&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.line&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.line.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.line.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# tick styling&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks.length&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;5&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;pt&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# x-axis labels&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.text.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;10&lt;/span&gt;, angle&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;90&lt;/span&gt;, hjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.95&lt;/span&gt;,vjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.2&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# breathing room for the plot&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.margin&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#268bd2&#34;&gt;rep&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;0.5&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;4&lt;/span&gt;), &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;cm&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# move the y-axis tick labels over a bit&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;#theme(axis.text.y=element_text(margin=margin(r=-5)))+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# make the plot title bold and modify the bottom margin a bit&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.title&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Bold&amp;#34;&lt;/span&gt;, margin&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;margin&lt;/span&gt;(b&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;15&lt;/span&gt;)))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# make the subtitle italic&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.subtitle&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Light Italic&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.caption&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;8&lt;/span&gt;, hjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0&lt;/span&gt;, margin&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;margin&lt;/span&gt;(t&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;15&lt;/span&gt;)))
+
+&lt;span style=&#34;color:#268bd2&#34;&gt;ggsave&lt;/span&gt;(plot&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;p, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;supervisors.png&amp;#34;&lt;/span&gt;, width&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;10&lt;/span&gt;, height&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;6&lt;/span&gt;, units&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;in&amp;#34;&lt;/span&gt;, dpi&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;retina&amp;#34;&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

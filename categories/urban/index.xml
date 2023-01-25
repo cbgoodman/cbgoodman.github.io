@@ -1,0 +1,107 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>urban on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/urban/</link>
+    <description>Recent content in urban on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 17 Nov 2021 14:48:38 -0600</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/urban/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The structure of US local governments is often a poor predictor of local economic growth</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/11/17/the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth/</link>
+      <pubDate>Wed, 17 Nov 2021 14:48:38 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/11/17/the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth/</guid>
+      <description>&lt;p&gt;I recently had the pleasure of writing a blog post for the &lt;a href=&#34;https://blogs.lse.ac.uk/usappblog/&#34;&gt;London School of Economic’s US Centre Blog&lt;/a&gt;. It covers a recent publication in the &lt;a href=&#34;https://www.tandfonline.com/loi/ujua20&#34;&gt;&lt;em&gt;Journal of Urban Affairs&lt;/em&gt;&lt;/a&gt; on the implications of local government structure on long-run economic growth in the US metropolitan areas. You can find more information about this piece &lt;a href=&#34;https://www.cgoodman.com/research/frag-grow/&#34;&gt;here&lt;/a&gt;. See below for the full text of the post as well as a link to the original.&lt;/p&gt;
+&lt;h3 id=&#34;the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth&#34;&gt;The structure of US local governments is often a poor predictor of local economic growth&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogs.lse.ac.uk/usappblog/2021/11/17/the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth/&#34;&gt;LSE US Centre Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Metropolitan economic growth is a perennial topic of interest to policymakers and scholars. Why do some areas flourish while others decline? &lt;a href=&#34;https://doi.org/10.1016/0304-3932(95)01206-2&#34;&gt;Previous analyses&lt;/a&gt; suggest the underlying strength and structure of the economy is important, as is &lt;a href=&#34;https://doi.org/10.1016/j.regsciurbeco.2006.11.004&#34;&gt;nicer weather&lt;/a&gt;. Another important consideration is the structure of local governments in a metropolitan area. The structure and powers of local government as a source of metropolitan growth are a popular topic in more international contexts. However, they have received significantly less attention in the US. States grant considerably more powers to local governments, and local governments are typically more numerous in the US than other parts of the world, making this an interesting case to study.&lt;/p&gt;
+&lt;h4 id=&#34;the-influence-of-local-governments-on-growth&#34;&gt;The influence of local governments on growth&lt;/h4&gt;
+&lt;p&gt;How might the structure of local governments influence economic growth? There are two competing schools of thought. The “polycentrists” explain that more local governments can be a means to economic growth. Many local governments in an area create a competitive environment, where each government competes to provide public services most efficiently at the lowest cost. For overlapping local governments, the geographic differences in local government size offer the opportunity to match efficient production of services more closely, i.e., take advantage of economies of scale, and allow component local governments to make decisions on the level of service provision appropriate in their area.&lt;/p&gt;
+&lt;p&gt;On the opposing side, the “government reformists” suggest that fewer local governments can be a means to economic growth. Efficiency forms the core of the argument; however, mechanisms are different. Rather than focusing on competition-induced efficiency, the government reformists focus on potential administrative efficiencies of having fewer local governments. Eliminating duplication of services, overcoming coordination issues, and directly realizing economics of geographic scale are all possible mechanisms to drive growth.&lt;/p&gt;
+&lt;p&gt;In general, academic research falls more often on the polycentrists side. &lt;a href=&#34;https://doi.org/10.1016/j.jue.2004.08.002&#34;&gt;More local governments can be associated with higher growth&lt;/a&gt; or &lt;a href=&#34;https://doi.org/10.1111/jors.2011.51.issue-1&#34;&gt;not&lt;/a&gt;, and city-county consolidations, a recommended government reform, &lt;a href=&#34;https://doi.org/10.1007/s11127-019-00699-z&#34;&gt;is generally not related to economic growth&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;measuring-economic-growth-in-us-metropolitan-areas&#34;&gt;Measuring economic growth in US metropolitan areas&lt;/h4&gt;
+&lt;p&gt;In new research I analyze economic growth (population, jobs, per capita money income) from 1960 to 2000 in 314 metropolitan areas in the US. I borrow the methodology of &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/0304393295012062?via%3Dihub&#34;&gt;Ed Glaeser&lt;/a&gt; of Harvard University and colleagues, where long-run economic growth is a function of the initial conditions of the metropolitan area (population, wealth, population growth, unemployment rate, manufacturing share, and percent of the population with a college degree). Those metropolitan areas with “better” initial conditions should grow more quickly in the following period.&lt;/p&gt;
+&lt;p&gt;My model includes information on five variables covering local government characteristics. The first three variables are: the share of the total metropolitan population residing in central cities, the average population of suburban (non-central) cities and the share of the metropolitan population that resides in unincorporated areas. These variables measure the influence of general-purpose local governments with higher values associated with lower political fragmentation. The last two measures, the number of school districts divided by the number of non-overlapping cities/townships, and the number of special districts divided by the number of non-overlapping cities/townships, relate to the influence of special-purpose local governments. Higher levels are associated with greater political fragmentation.&lt;/p&gt;
+&lt;p&gt;Figure 1 shows the influence for my model’s variables with population growth as the dependent variable (results for jobs growth and income growth look similar). Of the general government structure variables, only the share of the central city population has any significant impact. Those metro areas with larger central cities relative to their suburbs declined in population on average, and the size of this effect grows as the period of growth increases. Special district overlap is a positive predictor of metropolitan growth in the longest time range as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1 – Population growth, 1960-2000&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/popgrow-coeff.png&#34;
+         alt=&#34;Population growth coefficients&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Population growth coefficients&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Compared to the other variables, local government structure is a poor predictor of metropolitan growth. Initial economic conditions such as prior growth or the unemployment rate are far better at predicting long-run growth.&lt;/p&gt;
+&lt;p&gt;Looking more closely at regional differences&lt;/p&gt;
+&lt;p&gt;But what if the overall results are masking variations between regions? Metropolitan areas in different parts of the US grow differently, and local government structures may affect these metropolitan areas in different ways. Figure 2 examines this possibility by breaking down the sample by Census region.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2 – Regional differences&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/popgrow-coeff-region.png&#34;
+         alt=&#34;Population growth coefficients&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Regional population growth coefficients&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Figure 2 shows that some local government structure factors affect economic growth differently depending on the region the metropolitan area is in. Local government structure has little effect on growth in metropolitan areas in the Midwest; however, the structure of the suburbs and special-purpose governments is important for the northeast. Results are far more mixed for the southern and western regions.&lt;/p&gt;
+&lt;p&gt;This research stands at odds with much of the international literature on decentralization and economic growth that suggests increased decentralization can be a means to enhanced growth. The US is a highly decentralized country from a governance perspective. The benefits of devolution are likely already baked into the system, whereas decentralization in highly centralized countries is new and more likely to shock the system.&lt;/p&gt;
+&lt;h4 id=&#34;what-does-all-this-mean&#34;&gt;What does all this mean?&lt;/h4&gt;
+&lt;p&gt;Policymakers in the US sometimes claim that the structure of local governments is helping or hindering economic growth in their areas. Some areas are highly fragmented, and it is easy to claim this is a significant impediment (or enhancement) to growth. My results suggest a more tepid response. The structure of local governments can be important, but it is often region-specific and easily overshadowed by the underlying economic characteristics of metropolitan areas.&lt;/p&gt;
+&lt;p&gt;If a policymaker wants to develop a strategy to enhance economic growth, there are better options than to propose a radical alteration to the existing local government structure. There is more bang for the buck in improving local educational opportunities or working to reduce unemployment.&lt;/p&gt;
+&lt;p&gt;This article is based on the paper, “&lt;a href=&#34;http://dx.doi.org/10.1080/07352166.2020.1742578&#34;&gt;Political Fragmentation &amp;amp; Economic Growth in US Metropolitan Areas&lt;/a&gt;” in the &lt;em&gt;Journal of Urban Affairs&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zipf&#39;s Law</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/12/12/zipfs-law/</link>
+      <pubDate>Wed, 12 Dec 2018 17:46:04 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/12/12/zipfs-law/</guid>
+      <description>&lt;p&gt;Zipf&amp;rsquo;s law is a constant curiosity for urban observers. According to the law, the size of a city (i.e. population) is inversely related to the city&amp;rsquo;s population rank. This implies that the largest city is twice as large as the second largest city, three times as large as the third largest city, and so on.&lt;/p&gt;
+&lt;p&gt;The fascinating thing to me (and &lt;a href=&#34;https://scholar.harvard.edu/files/xgabaix/files/zipfs_law.pdf&#34;&gt;many others&lt;/a&gt;) is nothing preordains this relationship. No central planner makes it happen; no individual is responsible for this relationship. Yet, it persists.&lt;/p&gt;
+&lt;p&gt;Below, I replicate Figure 1 from &lt;a href=&#34;https://scholar.harvard.edu/files/xgabaix/files/zipfs_law.pdf&#34;&gt;Gabaix (1999)&lt;/a&gt; by plotting the logarithm of size rank against the logarithm of size (i.e population) for the largest 135 metropolitan statistical areas in the U.S using 2010 census data (rather than 1991 data). We can see the typical downward sloping relationship found by Gabaix and others. Gabaix suggests the slope of the regression line should be roughly one and this is replicated, albeit slightly more negative than what was found using the 1991 data.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/zipf135.png&#34;
+         alt=&#34;Zipf&amp;#39;s Law&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;$$ln, Rank = 18.891 - 1.082; ln, Size, ;R^2=0.978$$&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;If Zipf&amp;rsquo;s law is to be believed, the above graph suggests that the largest cities (those with low log rank on the right side) are too small to fit Zipf&amp;rsquo;s law perfectly. They fall below the trend line and should be, in a perfect Zipf&amp;rsquo;s law world, larger than they actually are. This likely comports with the general understanding that large, coastal U.S. cities aren&amp;rsquo;t growing nearly fast enough to accommodate all the individuals who might want to locate there.&lt;/p&gt;
+&lt;p&gt;As &lt;a href=&#34;https://economix.blogs.nytimes.com/2010/04/20/a-tale-of-many-cities/&#34;&gt;Ed Glaeser&lt;/a&gt; notes, it appears that Zipf&amp;rsquo;s law for cities is a function of the outward growth of cities. When examining fixed boundary geographies, Zipf&amp;rsquo;s law appears not to apply. Therefore, the sprawling nature of many U.S. cities appears to be a fundamental part of Zipf&amp;rsquo;s law holding.&lt;/p&gt;
+&lt;p&gt;When expanded to the full data on all 382 metropolitan areas, things change slightly but the more or less linear relationship between rank and size is preserved. In this instance, both the largest and the smallest metropolitan areas appear to be too small to fit Zipf&amp;rsquo;s law. This is a trend noted by &lt;a href=&#34;https://economix.blogs.nytimes.com/2010/04/20/a-tale-of-many-cities/&#34;&gt;Ed Glaeser&lt;/a&gt; as well.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/zipf.png&#34;
+         alt=&#34;$$ln, Rank = 16.283 - 0.896; ln, Size, ;R^2=0.976$$&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;$$ln, Rank = 16.283 - 0.896; ln, Size, ;R^2=0.976$$&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Long-Run Metropolitan Economic Growth in the U.S.</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/07/31/long-run-metropolitan-economic-growth-in-the-u.s./</link>
+      <pubDate>Tue, 31 Jul 2018 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/07/31/long-run-metropolitan-economic-growth-in-the-u.s./</guid>
+      <description>&lt;p&gt;Full color, stylized maps created for my &lt;a href=&#34;https://www.cgoodman.com/research/frag-grow/&#34;&gt;working paper&lt;/a&gt; on local political fragmentation and economic growth. These three maps examine long-run (1960-2000) growth in population, employment, and per capita money income among 314 U.S. metropolitan areas.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/pop.png&#34;
+         alt=&#34;Long run population growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run population growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/pcpi.png&#34;
+         alt=&#34;Long run employment growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run employment growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/emp.png&#34;
+         alt=&#34;Long run per capita money income growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run per capita money income growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

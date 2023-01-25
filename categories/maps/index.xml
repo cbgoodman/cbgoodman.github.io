@@ -1,0 +1,165 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maps on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/maps/</link>
+    <description>Recent content in maps on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 25 Jan 2023 14:27:51 -0600</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/maps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Illinois Special Districts Per Capita, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2023/01/25/illinois-special-districts-per-capita-2017/</link>
+      <pubDate>Wed, 25 Jan 2023 14:27:51 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2023/01/25/illinois-special-districts-per-capita-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/il-cog-17-pcspdist.png&#34;
+         alt=&#34;IL special districts per capita.&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Illinois independent special districts per 10,000 residents, 2017.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Horizontal v. Vertical Fragmentation</title>
+      <link>https://www.cgoodman.com/blog/archives/2022/01/25/horizontal-v.-vertical-fragmentation/</link>
+      <pubDate>Tue, 25 Jan 2022 18:24:38 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2022/01/25/horizontal-v.-vertical-fragmentation/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/bivariate.png&#34;
+         alt=&#34;Bivariate Map of Horizontal and Vertical Fragmentation in the U.S.&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Bivariate map of county level municipalities per 10,000 residents v. special districts per 10,000 residents.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Municipal Incorporation in the US, 1789 - 2020</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/12/07/municipal-incorporation-in-the-us-1789-2020/</link>
+      <pubDate>Tue, 07 Dec 2021 19:29:57 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/12/07/municipal-incorporation-in-the-us-1789-2020/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/us_animated_compressed.gif&#34;
+         alt=&#34;Animation of municipal incorporations in the US by year&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;An easier to share version is below.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/J7WjPgGAnJc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Municipal Fragmentation in U.S. Metro Areas in 3 Maps</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/04/16/municipal-fragmentation-in-u.s.-metro-areas-in-3-maps/</link>
+      <pubDate>Fri, 16 Apr 2021 15:52:02 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/04/16/municipal-fragmentation-in-u.s.-metro-areas-in-3-maps/</guid>
+      <description>&lt;p&gt;Over on Twitter, Dan Immergluck (GSU) asked about what municipal fragmentation in the U.S. at the metropolitan level looked like. I, an expert on local government fragmentation, saw it as my duty to get to the bottom of this. I have the data to do it. It only needs to be reworked slightly.&lt;/p&gt;
+&lt;p&gt;Ultimately, it matters which CBSAs you include in how the map (and rankings) look. This is obvious but essential. Including the smaller CBSAs (50,000 to 250,000 in population) leads to many of these smaller areas dominating the rankings, largely in the Upper Midwest and Plains.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/munifrag-ragg.png&#34;
+         alt=&#34;Municipal fragmentation, 2017, all CBSAs&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Limiting the sample of CBSAs to those larger than 250,000 changes things slightly, with the center of gravity moving south and east somewhat.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/munifrag-250k-ragg.png&#34;
+         alt=&#34;Municipal fragmentation, 2017, CBSAs larger than 250,000&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Lastly, constraining the sample to only those CBSAs larger than 1,000,000 in population gives the prototypical ranking with Pittsburgh and St. Louis at the top of the list. Generally, the most fragmented CBSAs are located in Rust Belt areas.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/munifrag-1m-ragg.png&#34;
+         alt=&#34;Municipal fragmentation, 2017, CBSAs larger than 1,000,000&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;H/T to Andrew Rumbach (TAMU) for suggesting these maps needed a permanent home (more permanent than Twitter).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Per Capita Independent Special Districts, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/06/16/per-capita-independent-special-districts-2017/</link>
+      <pubDate>Tue, 16 Jun 2020 10:45:34 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/06/16/per-capita-independent-special-districts-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totspdistdpc-cog-17.png&#34;
+         alt=&#34;Map of all independent special districts per capita by county&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;2017 Census of Governments&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Independent special districts per capita by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Per Capita General-Purpose Local Governments, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/05/16/per-capita-general-purpose-local-governments-2017/</link>
+      <pubDate>Sat, 16 May 2020 18:08:32 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/05/16/per-capita-general-purpose-local-governments-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totgenpurposepc-cog-17.png&#34;
+         alt=&#34;Map of general purpose local governments per capita by county&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;General purpose local governments per capita by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Per Capita Local Governments, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/05/07/per-capita-local-governments-2017/</link>
+      <pubDate>Thu, 07 May 2020 18:03:34 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/05/07/per-capita-local-governments-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totgovpc-cog-17-decile.png&#34;
+         alt=&#34;Map of all local governments per capita by county&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;2017 Census of Governments&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Local governments per capita by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Total Local Governments, 2017</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/01/31/total-local-governments-2017/</link>
+      <pubDate>Fri, 31 Jan 2020 17:57:21 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/01/31/total-local-governments-2017/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/totgov-cog-17.png&#34;
+         alt=&#34;Map of all local governments by county&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;2017 Census of Governments&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Absolute number of local governments by county from the 2017 Census of Government.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Local Government Overlap</title>
+      <link>https://www.cgoodman.com/blog/archives/2019/09/23/local-government-overlap/</link>
+      <pubDate>Mon, 23 Sep 2019 11:49:02 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2019/09/23/local-government-overlap/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;files/misc/ca-cog-17.png&#34;
+         alt=&#34;Western states have the highest levels of local government overlap&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;Local government overlap is calculated similar to &lt;a href=&#34;https://dx.doi.org/10.1111/j.1540-5907.2008.00344.x&#34;&gt;Berry (2008)&lt;/a&gt; by taking the ratio of all special districts, school districts, and overlapping townships to municipalities and non-overlapping townships in a county. Unlike Berry, this includes all forms of overlapping jurisdictions rather than just those with taxing power.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Long-Run Metropolitan Economic Growth in the U.S.</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/07/31/long-run-metropolitan-economic-growth-in-the-u.s./</link>
+      <pubDate>Tue, 31 Jul 2018 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/07/31/long-run-metropolitan-economic-growth-in-the-u.s./</guid>
+      <description>&lt;p&gt;Full color, stylized maps created for my &lt;a href=&#34;https://www.cgoodman.com/research/frag-grow/&#34;&gt;working paper&lt;/a&gt; on local political fragmentation and economic growth. These three maps examine long-run (1960-2000) growth in population, employment, and per capita money income among 314 U.S. metropolitan areas.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/pop.png&#34;
+         alt=&#34;Long run population growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run population growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/pcpi.png&#34;
+         alt=&#34;Long run employment growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run employment growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/emp.png&#34;
+         alt=&#34;Long run per capita money income growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run per capita money income growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

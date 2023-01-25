@@ -1,0 +1,310 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>public-finance on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/public-finance/</link>
+    <description>Recent content in public-finance on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:38:02 -0500</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/public-finance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Price of Residential Street Parking</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/09/15/the-price-of-residential-street-parking/</link>
+      <pubDate>Tue, 15 Sep 2020 11:38:02 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/09/15/the-price-of-residential-street-parking/</guid>
+      <description>&lt;p&gt;Cities, broadly, manage a number of public assets with which they provide public services. Some of those services are somewhat passive in the sense that no active labor aside from maintenance is being carried out. And others are more active in that the asset is being used by public sector employees or contractors to provide a public service. We generally think of the latter as the primary mode of public service delivery as it is more visible. We see the bus driver, the police officer, the firefighter, etc in our communities doing their jobs. But the passive service is no less important. We drive on roads, use water and sewer infrastructure (though this is a blended service), etc on a daily basis as we go about our lives. One of the big differences between these two kinds of services is how the public sector asks users to pay for them. Some services are supported through taxes, but a great many are supported through user fees. Below, I point out two approaches to this for getting around a central city: the cost of storing a vehicle on a public street versus the cost of using the transit system.&lt;/p&gt;
+&lt;p&gt;I choose these two the compare because they are roughly equivalent in their purpose (charging for the use of a public asset, roads v. a transit system), but the mode is different. Undoubtedly, there are private costs here as well. Car owners bear many costs associated with car ownership. Transit riders bear some private costs, mostly in their time, in using the transit system. But what we ask these two user groups to pay for the usage of a public asset is vastly different.&lt;/p&gt;
+&lt;p&gt;Below is the monthly cost of a residential parking permit&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; versus the cost of a monthly transit pass for the 30 largest U.S. cities. In nearly every large U.S. city, on-street, residential parking is essentially free. If these residents were to park in a private lot/garage/space (i.e. likely much closer to the market price for parking), it could be many hundreds of dollars per month in parking fees. This suggests the usage of this public asset is being severely underpriced. Meanwhile, public transit passes are significantly more expensive. In many cases, the monthly cost of a residential parking permit is less than a single fare on the central city transit system! While likely not covering the entire cost of public transit, the monthly transit pass is likely covering a much larger proportion of the per user cost of the transit system. It&amp;rsquo;s highly unlikely this is the case for street parking.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Pop. Rank&lt;/th&gt;
+&lt;th&gt;City&lt;/th&gt;
+&lt;th&gt;2017 Population&lt;/th&gt;
+&lt;th&gt;Monthly Street Parking Cost&lt;/th&gt;
+&lt;th&gt;Monthly Transit Pass Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;New York City, NY&lt;/td&gt;
+&lt;td&gt;8622698&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$127.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Los Angeles, CA&lt;/td&gt;
+&lt;td&gt;3999759&lt;/td&gt;
+&lt;td&gt;$2.83&lt;/td&gt;
+&lt;td&gt;$100.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Chicago, IL&lt;/td&gt;
+&lt;td&gt;2716450&lt;/td&gt;
+&lt;td&gt;$2.08&lt;/td&gt;
+&lt;td&gt;$105.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Houston, TX&lt;/td&gt;
+&lt;td&gt;2312717&lt;/td&gt;
+&lt;td&gt;$2.67&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Phoenix, AZ&lt;/td&gt;
+&lt;td&gt;1626078&lt;/td&gt;
+&lt;td&gt;$0.83&lt;/td&gt;
+&lt;td&gt;$64.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Philadelphia, PA&lt;/td&gt;
+&lt;td&gt;1580863&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$96.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;San Antonio, TX&lt;/td&gt;
+&lt;td&gt;1511946&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$38.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;San Diego, CA&lt;/td&gt;
+&lt;td&gt;1419516&lt;/td&gt;
+&lt;td&gt;$0.75&lt;/td&gt;
+&lt;td&gt;$72.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Dallas, TX&lt;/td&gt;
+&lt;td&gt;1341075&lt;/td&gt;
+&lt;td&gt;$0.54&lt;/td&gt;
+&lt;td&gt;$96.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;San Jose, CA&lt;/td&gt;
+&lt;td&gt;1035317&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Austin, TX&lt;/td&gt;
+&lt;td&gt;950715&lt;/td&gt;
+&lt;td&gt;$1.35&lt;/td&gt;
+&lt;td&gt;$41.25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Jacksonville, FL&lt;/td&gt;
+&lt;td&gt;892062&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;San Francisco, CA&lt;/td&gt;
+&lt;td&gt;884363&lt;/td&gt;
+&lt;td&gt;$12.00&lt;/td&gt;
+&lt;td&gt;$81.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Columbus, OH&lt;/td&gt;
+&lt;td&gt;879170&lt;/td&gt;
+&lt;td&gt;$2.08&lt;/td&gt;
+&lt;td&gt;$62.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Fort Worth, TX&lt;/td&gt;
+&lt;td&gt;874168&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$80.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;Indianapolis, IN&lt;/td&gt;
+&lt;td&gt;863002&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$60.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Charlotte, NC&lt;/td&gt;
+&lt;td&gt;859035&lt;/td&gt;
+&lt;td&gt;$2.50&lt;/td&gt;
+&lt;td&gt;$88.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;Seattle, WA&lt;/td&gt;
+&lt;td&gt;724745&lt;/td&gt;
+&lt;td&gt;$5.42&lt;/td&gt;
+&lt;td&gt;$99.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;Denver, CO&lt;/td&gt;
+&lt;td&gt;704621&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$114.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;Washington, DC&lt;/td&gt;
+&lt;td&gt;693972&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$81.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;Boston, MA&lt;/td&gt;
+&lt;td&gt;685094&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;El Paso, TX&lt;/td&gt;
+&lt;td&gt;683577&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$48.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;Detroit, MI&lt;/td&gt;
+&lt;td&gt;673104&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$70.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;Nashville, TN&lt;/td&gt;
+&lt;td&gt;667560&lt;/td&gt;
+&lt;td&gt;$0.83&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;Memphis, TN&lt;/td&gt;
+&lt;td&gt;652236&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;Portland, OR&lt;/td&gt;
+&lt;td&gt;647805&lt;/td&gt;
+&lt;td&gt;$6.25&lt;/td&gt;
+&lt;td&gt;$100.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;td&gt;Oklahoma City, OK&lt;/td&gt;
+&lt;td&gt;643648&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$50.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;Las Vegas, NV&lt;/td&gt;
+&lt;td&gt;641676&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;29&lt;/td&gt;
+&lt;td&gt;Louisville, KY&lt;/td&gt;
+&lt;td&gt;621349&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$50.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;Baltimore, MD&lt;/td&gt;
+&lt;td&gt;611648&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$74.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In these times of municipal fiscal distress, it is important to consider the costs of providing public services. Since residential street parking is often free (or minimally priced), the cost of upkeep and maintenance of street falls on all taxpayers through general taxation (usually the property tax). This is highly inequitable to non-street parking users who are asked to bear a portion of the cost while receiving no benefits.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; The public sector asks transit users to bear a much larger portion of the costs associated with their usage of the public transit infrastructure than car users are asked to bear.&lt;/p&gt;
+&lt;p&gt;Residential street parking could be a decent revenue source for large cities. Vast sums of money are spent on the provision and maintenance of roads and few mechanisms exist to explicitly capture revenues associated with the usage of roads.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Appropriately pricing residential street parking could do this in a direct way.&lt;/p&gt;
+&lt;p&gt;tl;dr: Street parking in nearly all U.S. cities is vastly underpriced.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;It is important to note that in many of these cities the residential parking permit system (or zones) do not cover the entire city. In a great many locations in these cities, street parking is essentially free (or uncharged for by the public sector).&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;This doesn&amp;rsquo;t consider the social costs imposed either.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The disconnect between the provision of roads and the revenues to pay for them is and will get worse as the efficiency of the gas tax (the connection between the amount of the tax and the usage of roads) further declines. This is driven by both the failure of the gas tax to be increased (most specifically at the federal level, but also in a number of states) and, paradoxically, the increased popularity of electric or hybrid vehicles that can avoid some or all of the gas tax&amp;rsquo;s intended purpose as a fee on road usage.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+    <item>
+      <title>Speculating on the Impact of COVID-19 on Chicagoland Property Taxes</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/04/17/speculating-on-the-impact-of-covid-19-on-chicagoland-property-taxes/</link>
+      <pubDate>Fri, 17 Apr 2020 13:38:32 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/04/17/speculating-on-the-impact-of-covid-19-on-chicagoland-property-taxes/</guid>
+      <description>&lt;p&gt;Over on Twitter, I worked through a how the current COVID-19 pandemic might influence property taxes in the Chicagoland region (see below for a link to that thread if you want to go through it). Twitter is nice for quick thoughts, but this is important so I thought I&amp;rsquo;d expand upon that a bit. Off we go!&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;This is the thread that everyone has been waiting for: how does &lt;a href=&#34;https://twitter.com/hashtag/COVID19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#COVID19&lt;/a&gt; impact property taxes in Chicagoland (and probably elsewhere, but this is what I know)?&lt;br&gt;&lt;br&gt;\begin{thread}&lt;/p&gt;&amp;mdash; Chris Goodman @cbgoodman@sciences.social (@cbgoodman) &lt;a href=&#34;https://twitter.com/cbgoodman/status/1251184051953770496?ref_src=twsrc%5Etfw&#34;&gt;April 17, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;In theory, this is mostly a short-term issue, but there could be long-term implications depending on what happens in the real estate market. To plug my own research for a second, in the long-run, changes in assessed values are dependent on changes in house prices. Typically, it takes some time to translate changes in house prices to assessed value to property tax revenues. &lt;a href=&#34;https://dx.doi.org/10.1111/grow.12261&#34;&gt;In general, this is a 3 to 4 year process&lt;/a&gt;. So if COVID-19 disrupts house prices in any way, the revenue impacts for local governments are pretty far off in the future on average.&lt;/p&gt;
+&lt;p&gt;The short-term is much more dependent on how property tax collections and distributions work and that&amp;rsquo;s state-specific.&lt;/p&gt;
+&lt;h2 id=&#34;illinois-property-taxes&#34;&gt;Illinois Property Taxes&lt;/h2&gt;
+&lt;p&gt;For the uninitiated, the property tax is an ad valorem tax. It applies a rate (millage rate) to a tax base (assessed value). In Illinois, the rates are set by the various taxing bodies and the tax base is usually determined by townships (in most things property tax in the state, Cook County (Chicago) is unique). Property is assessed at 33 1/3 percent of the fair market value of that property.&lt;/p&gt;
+&lt;p&gt;In Illinois, property tax collection is the realm of counties (county treasurers, specifically). The county sends out property tax bills, handles payments, and distributes tax revenues to the applicable taxing bodies. Generally, tax bills are sent out by May 1 with bills being due in two equal parts on June 1 and September 1. There are exceptions, of course. Counties can opt into a four-payment system and Cook County operates on an accelerated time table with 55% of the bill being due March 1 and 45% being due August 1. Failure to make a property tax payment on time incurs a 1.5% monthly interest penalty.&lt;/p&gt;
+&lt;p&gt;Once tax revenue is collected, it is distributed to taxing bodies beginning on June 1 (including any applicable interest) and then the first day of every month after. In general, counties stick to this schedule; however, there are certain programs that allow for deviations. For instance, counties alter this schedule for activated members of the Illinois National Guard or US military reserves who are deployed outside the United States. Important here is that when the President or Governor declare a disaster in all or part of a county, the rules for how late payments or due dates are treated change. In these situations, counties may adopt ordinances that delay due dates, suspend interest accumulation on late payments, and the like (see &lt;a href=&#34;http://www.ilga.gov/legislation/ilcs/documents/003502000K21-40.htm&#34;&gt;35 ILCS 200/21-40(c)(1)&lt;/a&gt; for more information on the potential changes).&lt;/p&gt;
+&lt;p&gt;As of today, there are a number of collar counties that are trying to decide whether to implement programs that would suspend late penalties. &lt;a href=&#34;https://www.dailyherald.com/news/20200413/dupage-could-waive-late-fees-on-property-taxes?cid=search&#34;&gt;DuPage County&lt;/a&gt; and &lt;a href=&#34;https://www.chicagotribune.com/suburbs/aurora-beacon-news/ct-abn-kendall-finances-st-0410-20200409-4ymqzu7vwjfexoaih3hug66skm-story.html#nt=msftsearch&#34;&gt;Kendall County&lt;/a&gt; are debating. &lt;a href=&#34;https://www.dailyherald.com/news/20200415/kane-county-waives-penalty-for-late-property-tax-payments-&#34;&gt;Kane County&lt;/a&gt; has already suspended late penalties (&lt;strong&gt;Update (2020-04-22)&lt;/strong&gt;: &lt;a href=&#34;https://www.dailyherald.com/news/20200422/mchenry-county-board-passes-ordinance-waiving-late-fees-interest-on-first-installment-of-property-tax-payments&#34;&gt;McHenry County&lt;/a&gt; has also suspended late penalties). &lt;a href=&#34;https://www.dailyherald.com/news/20200416/lake-county-panel-says-no-to-delay-in-property-tax-deadlines&#34;&gt;Lake County&lt;/a&gt; debated implementing a delay, but ultimately chose not to do so.&lt;/p&gt;
+&lt;h2 id=&#34;so-what&#34;&gt;So What?&lt;/h2&gt;
+&lt;p&gt;The primary issue in delaying payments (or not assessing penalties on late payments) is this has the potential to disrupt the transfer of tax revenues to taxing bodies and short-term cashflow. An open question is how prevalent delayed payments will be. Among the counties who have decided or are debating whether to adopt a delaying policy, the property tax base is overwhelming residential and heavily skewed toward owner-occupied single family homes. Many of these homes will have their property tax bills paid for through an escrow account managed by a mortgage servicer. At least for the June 1 payment, there&amp;rsquo;s likely sufficient reserves to pay property taxes; however, if homeowners begin to fail to make payments, there could be an issue.&lt;/p&gt;
+&lt;p&gt;At the end of the day, this is a big waiting game until the first revenue distribution on June 1. An additional issue is what is likely to play out is taxing body specific. If there are clusters of taxpayers who elect to delay payment, that may influence only a handful of taxing bodies. Or payment delays could be low but widespread, impacting individual local governments very little.&lt;/p&gt;
+&lt;p&gt;We just won&amp;rsquo;t know until June 1.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why your sprawling, low-density suburb may be costing your local government money</title>
+      <link>https://www.cgoodman.com/blog/archives/2019/10/21/why-your-sprawling-low-density-suburb-may-be-costing-your-local-government-money/</link>
+      <pubDate>Mon, 21 Oct 2019 12:24:24 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2019/10/21/why-your-sprawling-low-density-suburb-may-be-costing-your-local-government-money/</guid>
+      <description>&lt;p&gt;I recently had the pleasure of writing a blog post for the &lt;a href=&#34;https://blogs.lse.ac.uk/usappblog/&#34;&gt;London School of Economic&amp;rsquo;s US Centre Blog&lt;/a&gt;. It covers a recent publication in &lt;a href=&#34;https://onlinelibrary.wiley.com/journal/15405850&#34;&gt;&lt;em&gt;Public Budgeting and Finance&lt;/em&gt;&lt;/a&gt; on the implications of dimensions of urban sprawl on per capita public spending by local governments in the US. You can find more information about this piece &lt;a href=&#34;https://www.cgoodman.com/research/fiscal-impact/&#34;&gt;here&lt;/a&gt;. See below for the full text of the post as well as a link to the original.&lt;/p&gt;
+&lt;h3 id=&#34;why-your-sprawling-low-density-suburb-may-be-costing-your-local-government-money&#34;&gt;Why your sprawling, low-density suburb may be costing your local government money&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogs.lse.ac.uk/usappblog/2019/10/18/why-your-sprawling-low-density-suburb-may-be-costing-your-local-government-money/&#34;&gt;LSE US Centre Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Even with the recent resurgence of urban living, the United States is a country of suburbs. There is plenty of &lt;a href=&#34;https://fivethirtyeight.com/features/how-suburban-are-big-american-cities/&#34;&gt;debate&lt;/a&gt; about the full extent of this suburbanization, but some of it is clearly sprawl. Sprawl has an even more complicated definition, lending itself to a &amp;ldquo;I know it when I see it&amp;rdquo; interpretation. My working definition is excessive suburbanization; development that likely wouldn&amp;rsquo;t have taken place if developers and/or residents had to internalize the costs they impose on society. The question at hand is whether this kind of development induces higher spending on the part of local governments than it otherwise would have spent. In general, the answer is yes; however, it is complicated.&lt;/p&gt;
+&lt;p&gt;What are some of the reasons that normal suburbanization might turn to urban sprawl? In general, there are &lt;a href=&#34;https://journals.sagepub.com/doi/abs/10.1177/016001700761012710&#34;&gt;three reasons&lt;/a&gt;. First, developers may fail to consider the social value of open space. This leads an overzealous conversion of land from open space (like agricultural land) to residential or commercial uses. Second, individuals may fail to consider the social cost of their commuting patterns leading to housing being built far from employment centers. Finally, developers may fail to consider all the public costs of their developments. This last reason is the connection to local government spending. It has been suggested that it is costlier to provide public services in areas of sprawl because this type of development pattern fails to capitalize on economies of scale, often fails to optimize the location of costly capital facilities, and leads to duplicative service delivery. More compact development patterns can help to contain these costs.&lt;/p&gt;
+&lt;p&gt;Densification, one potential remedy for sprawl, comes with its own potential impacts on local government spending. There could be economies of density whereby public costs are lowered because development and people are clustered closer together. There is another possibility, however. Because of physical proximity, providing public services could become more expensive; a concept referred to as &amp;ldquo;urban harshness.&amp;rdquo; The general logic is that dense urban areas require more &amp;ldquo;stuff,&amp;rdquo; traffic lights, police officers, teachers, than less dense areas to provide a similar level of public services. It is somewhat unclear which of these two views of sprawling (or not) development will impact public spending.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://blogsmedia.lse.ac.uk/blogs.dir/58/files/2019/10/New-blog-image-test-6.png&#34;
+         alt=&#34;LSE&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;I examine this relationship between urban development and public spending in metropolitan counties areas in the United States from 1982 to 2012. I examine sprawl in two dimensions: horizontally and vertically. To measure the horizontal aspect, I use the USDA National Resource Inventory data to calculate the percentage of a county that is considered urban. In general, if small or very large percentages are found, that is an indication of more compact development. In the vertical dimension, I use population plus jobs density (population plus jobs divided by urban land). The idea for this is that urban or suburban areas exist for multiple uses. Some purely residential, some purely commercial, and others a mixed of the two. Only measuring one aspect gives a false sense of density, especially as it relates to public finance. Those office towers that are largely empty at night still require public services.&lt;/p&gt;
+&lt;p&gt;In general, I find that more compact development (think mixed-use medium rises) is less costly to provide public services; however, more dense development (think skyscraper offices and apartments) is more costly to provide public services. The relative size of the effects are not equivalent. More compact development has significantly more potential to reduce public spending than any associated increase in density could offset. In the average county area, if density increased from the 25th percentile to the 50th percentile, per capita expenditures would increase by $5.26. If the percentage of developed land was reduced from the 50th percentile to the 25th percentile in the average county, per capita expenditures would decline by $60.86. This finding suggests that if development patterns were to shift to more dense and compact development, there will be a reduction in public spending on average.&lt;/p&gt;
+&lt;p&gt;Moreover, some spending categories are more affecting by development patterns than others. Eduction, police, fire, libraries, sewerage, and solid waste management would all see likely reductions in per capita expenditures if development was more compact. This shouldn&amp;rsquo;t be too surprising as all of these services require traversing space or efficiently locating a building. In the case of education or libraries, it can be difficult to efficiently locate facilities when students or residents are spread out. For the others, spacing development far apart means needing more &amp;ldquo;stuff&amp;rdquo; to effectively provide public services; more police cars, fire trucks, miles of sewer lines, or garbage trucks.&lt;/p&gt;
+&lt;p&gt;So what?&lt;/p&gt;
+&lt;p&gt;My results suggest that more compact and dense development can pay dividends in lowering public expenditures. The key policy question is how to achieve that. Effectively designed impact fees that internalize the social costs of sprawl on developers (and likely passed along to new homeowners) are one mechanism. However, our ability to do this effectively appears somewhat lacking. Statewide growth management or local urban containment policies may be a mechanism to reduce growth on the urban fringe and thereby reduce expenditures. Promoting infill development is another mechanism to stem growth on the urban fringe. All of this is to say that there are policy options to reduce sprawl and to the extent those policies are successful a secondary effect is a likely reduction in local public spending.&lt;/p&gt;
+&lt;p&gt;This article is based on the paper, &amp;ldquo;&lt;a href=&#34;http://dx.doi.org/10.1111/pbaf.12239&#34;&gt;The Fiscal Impacts of Urban Sprawl: Evidence From U.S. County Areas&lt;/a&gt;&amp;rdquo; in &lt;em&gt;Public Budgeting and Finance&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

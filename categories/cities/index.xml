@@ -1,0 +1,470 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cities on Christopher B. Goodman, PhD</title>
+    <link>https://www.cgoodman.com/categories/cities/</link>
+    <description>Recent content in cities on Christopher B. Goodman, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Dec 2021 19:29:57 -0600</lastBuildDate>
+    
+        <atom:link href="https://www.cgoodman.com/categories/cities/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Municipal Incorporation in the US, 1789 - 2020</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/12/07/municipal-incorporation-in-the-us-1789-2020/</link>
+      <pubDate>Tue, 07 Dec 2021 19:29:57 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/12/07/municipal-incorporation-in-the-us-1789-2020/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/us_animated_compressed.gif&#34;
+         alt=&#34;Animation of municipal incorporations in the US by year&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;An easier to share version is below.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/J7WjPgGAnJc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>The structure of US local governments is often a poor predictor of local economic growth</title>
+      <link>https://www.cgoodman.com/blog/archives/2021/11/17/the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth/</link>
+      <pubDate>Wed, 17 Nov 2021 14:48:38 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2021/11/17/the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth/</guid>
+      <description>&lt;p&gt;I recently had the pleasure of writing a blog post for the &lt;a href=&#34;https://blogs.lse.ac.uk/usappblog/&#34;&gt;London School of Economic’s US Centre Blog&lt;/a&gt;. It covers a recent publication in the &lt;a href=&#34;https://www.tandfonline.com/loi/ujua20&#34;&gt;&lt;em&gt;Journal of Urban Affairs&lt;/em&gt;&lt;/a&gt; on the implications of local government structure on long-run economic growth in the US metropolitan areas. You can find more information about this piece &lt;a href=&#34;https://www.cgoodman.com/research/frag-grow/&#34;&gt;here&lt;/a&gt;. See below for the full text of the post as well as a link to the original.&lt;/p&gt;
+&lt;h3 id=&#34;the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth&#34;&gt;The structure of US local governments is often a poor predictor of local economic growth&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://blogs.lse.ac.uk/usappblog/2021/11/17/the-structure-of-us-local-governments-is-often-a-poor-predictor-of-local-economic-growth/&#34;&gt;LSE US Centre Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Metropolitan economic growth is a perennial topic of interest to policymakers and scholars. Why do some areas flourish while others decline? &lt;a href=&#34;https://doi.org/10.1016/0304-3932(95)01206-2&#34;&gt;Previous analyses&lt;/a&gt; suggest the underlying strength and structure of the economy is important, as is &lt;a href=&#34;https://doi.org/10.1016/j.regsciurbeco.2006.11.004&#34;&gt;nicer weather&lt;/a&gt;. Another important consideration is the structure of local governments in a metropolitan area. The structure and powers of local government as a source of metropolitan growth are a popular topic in more international contexts. However, they have received significantly less attention in the US. States grant considerably more powers to local governments, and local governments are typically more numerous in the US than other parts of the world, making this an interesting case to study.&lt;/p&gt;
+&lt;h4 id=&#34;the-influence-of-local-governments-on-growth&#34;&gt;The influence of local governments on growth&lt;/h4&gt;
+&lt;p&gt;How might the structure of local governments influence economic growth? There are two competing schools of thought. The “polycentrists” explain that more local governments can be a means to economic growth. Many local governments in an area create a competitive environment, where each government competes to provide public services most efficiently at the lowest cost. For overlapping local governments, the geographic differences in local government size offer the opportunity to match efficient production of services more closely, i.e., take advantage of economies of scale, and allow component local governments to make decisions on the level of service provision appropriate in their area.&lt;/p&gt;
+&lt;p&gt;On the opposing side, the “government reformists” suggest that fewer local governments can be a means to economic growth. Efficiency forms the core of the argument; however, mechanisms are different. Rather than focusing on competition-induced efficiency, the government reformists focus on potential administrative efficiencies of having fewer local governments. Eliminating duplication of services, overcoming coordination issues, and directly realizing economics of geographic scale are all possible mechanisms to drive growth.&lt;/p&gt;
+&lt;p&gt;In general, academic research falls more often on the polycentrists side. &lt;a href=&#34;https://doi.org/10.1016/j.jue.2004.08.002&#34;&gt;More local governments can be associated with higher growth&lt;/a&gt; or &lt;a href=&#34;https://doi.org/10.1111/jors.2011.51.issue-1&#34;&gt;not&lt;/a&gt;, and city-county consolidations, a recommended government reform, &lt;a href=&#34;https://doi.org/10.1007/s11127-019-00699-z&#34;&gt;is generally not related to economic growth&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;measuring-economic-growth-in-us-metropolitan-areas&#34;&gt;Measuring economic growth in US metropolitan areas&lt;/h4&gt;
+&lt;p&gt;In new research I analyze economic growth (population, jobs, per capita money income) from 1960 to 2000 in 314 metropolitan areas in the US. I borrow the methodology of &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/0304393295012062?via%3Dihub&#34;&gt;Ed Glaeser&lt;/a&gt; of Harvard University and colleagues, where long-run economic growth is a function of the initial conditions of the metropolitan area (population, wealth, population growth, unemployment rate, manufacturing share, and percent of the population with a college degree). Those metropolitan areas with “better” initial conditions should grow more quickly in the following period.&lt;/p&gt;
+&lt;p&gt;My model includes information on five variables covering local government characteristics. The first three variables are: the share of the total metropolitan population residing in central cities, the average population of suburban (non-central) cities and the share of the metropolitan population that resides in unincorporated areas. These variables measure the influence of general-purpose local governments with higher values associated with lower political fragmentation. The last two measures, the number of school districts divided by the number of non-overlapping cities/townships, and the number of special districts divided by the number of non-overlapping cities/townships, relate to the influence of special-purpose local governments. Higher levels are associated with greater political fragmentation.&lt;/p&gt;
+&lt;p&gt;Figure 1 shows the influence for my model’s variables with population growth as the dependent variable (results for jobs growth and income growth look similar). Of the general government structure variables, only the share of the central city population has any significant impact. Those metro areas with larger central cities relative to their suburbs declined in population on average, and the size of this effect grows as the period of growth increases. Special district overlap is a positive predictor of metropolitan growth in the longest time range as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 1 – Population growth, 1960-2000&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/popgrow-coeff.png&#34;
+         alt=&#34;Population growth coefficients&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Population growth coefficients&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Compared to the other variables, local government structure is a poor predictor of metropolitan growth. Initial economic conditions such as prior growth or the unemployment rate are far better at predicting long-run growth.&lt;/p&gt;
+&lt;p&gt;Looking more closely at regional differences&lt;/p&gt;
+&lt;p&gt;But what if the overall results are masking variations between regions? Metropolitan areas in different parts of the US grow differently, and local government structures may affect these metropolitan areas in different ways. Figure 2 examines this possibility by breaking down the sample by Census region.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Figure 2 – Regional differences&lt;/strong&gt;&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/popgrow-coeff-region.png&#34;
+         alt=&#34;Population growth coefficients&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Regional population growth coefficients&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Figure 2 shows that some local government structure factors affect economic growth differently depending on the region the metropolitan area is in. Local government structure has little effect on growth in metropolitan areas in the Midwest; however, the structure of the suburbs and special-purpose governments is important for the northeast. Results are far more mixed for the southern and western regions.&lt;/p&gt;
+&lt;p&gt;This research stands at odds with much of the international literature on decentralization and economic growth that suggests increased decentralization can be a means to enhanced growth. The US is a highly decentralized country from a governance perspective. The benefits of devolution are likely already baked into the system, whereas decentralization in highly centralized countries is new and more likely to shock the system.&lt;/p&gt;
+&lt;h4 id=&#34;what-does-all-this-mean&#34;&gt;What does all this mean?&lt;/h4&gt;
+&lt;p&gt;Policymakers in the US sometimes claim that the structure of local governments is helping or hindering economic growth in their areas. Some areas are highly fragmented, and it is easy to claim this is a significant impediment (or enhancement) to growth. My results suggest a more tepid response. The structure of local governments can be important, but it is often region-specific and easily overshadowed by the underlying economic characteristics of metropolitan areas.&lt;/p&gt;
+&lt;p&gt;If a policymaker wants to develop a strategy to enhance economic growth, there are better options than to propose a radical alteration to the existing local government structure. There is more bang for the buck in improving local educational opportunities or working to reduce unemployment.&lt;/p&gt;
+&lt;p&gt;This article is based on the paper, “&lt;a href=&#34;http://dx.doi.org/10.1080/07352166.2020.1742578&#34;&gt;Political Fragmentation &amp;amp; Economic Growth in US Metropolitan Areas&lt;/a&gt;” in the &lt;em&gt;Journal of Urban Affairs&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Price of Residential Street Parking</title>
+      <link>https://www.cgoodman.com/blog/archives/2020/09/15/the-price-of-residential-street-parking/</link>
+      <pubDate>Tue, 15 Sep 2020 11:38:02 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2020/09/15/the-price-of-residential-street-parking/</guid>
+      <description>&lt;p&gt;Cities, broadly, manage a number of public assets with which they provide public services. Some of those services are somewhat passive in the sense that no active labor aside from maintenance is being carried out. And others are more active in that the asset is being used by public sector employees or contractors to provide a public service. We generally think of the latter as the primary mode of public service delivery as it is more visible. We see the bus driver, the police officer, the firefighter, etc in our communities doing their jobs. But the passive service is no less important. We drive on roads, use water and sewer infrastructure (though this is a blended service), etc on a daily basis as we go about our lives. One of the big differences between these two kinds of services is how the public sector asks users to pay for them. Some services are supported through taxes, but a great many are supported through user fees. Below, I point out two approaches to this for getting around a central city: the cost of storing a vehicle on a public street versus the cost of using the transit system.&lt;/p&gt;
+&lt;p&gt;I choose these two the compare because they are roughly equivalent in their purpose (charging for the use of a public asset, roads v. a transit system), but the mode is different. Undoubtedly, there are private costs here as well. Car owners bear many costs associated with car ownership. Transit riders bear some private costs, mostly in their time, in using the transit system. But what we ask these two user groups to pay for the usage of a public asset is vastly different.&lt;/p&gt;
+&lt;p&gt;Below is the monthly cost of a residential parking permit&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; versus the cost of a monthly transit pass for the 30 largest U.S. cities. In nearly every large U.S. city, on-street, residential parking is essentially free. If these residents were to park in a private lot/garage/space (i.e. likely much closer to the market price for parking), it could be many hundreds of dollars per month in parking fees. This suggests the usage of this public asset is being severely underpriced. Meanwhile, public transit passes are significantly more expensive. In many cases, the monthly cost of a residential parking permit is less than a single fare on the central city transit system! While likely not covering the entire cost of public transit, the monthly transit pass is likely covering a much larger proportion of the per user cost of the transit system. It&amp;rsquo;s highly unlikely this is the case for street parking.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Pop. Rank&lt;/th&gt;
+&lt;th&gt;City&lt;/th&gt;
+&lt;th&gt;2017 Population&lt;/th&gt;
+&lt;th&gt;Monthly Street Parking Cost&lt;/th&gt;
+&lt;th&gt;Monthly Transit Pass Cost&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;New York City, NY&lt;/td&gt;
+&lt;td&gt;8622698&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$127.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Los Angeles, CA&lt;/td&gt;
+&lt;td&gt;3999759&lt;/td&gt;
+&lt;td&gt;$2.83&lt;/td&gt;
+&lt;td&gt;$100.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Chicago, IL&lt;/td&gt;
+&lt;td&gt;2716450&lt;/td&gt;
+&lt;td&gt;$2.08&lt;/td&gt;
+&lt;td&gt;$105.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Houston, TX&lt;/td&gt;
+&lt;td&gt;2312717&lt;/td&gt;
+&lt;td&gt;$2.67&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Phoenix, AZ&lt;/td&gt;
+&lt;td&gt;1626078&lt;/td&gt;
+&lt;td&gt;$0.83&lt;/td&gt;
+&lt;td&gt;$64.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Philadelphia, PA&lt;/td&gt;
+&lt;td&gt;1580863&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$96.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;San Antonio, TX&lt;/td&gt;
+&lt;td&gt;1511946&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$38.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;San Diego, CA&lt;/td&gt;
+&lt;td&gt;1419516&lt;/td&gt;
+&lt;td&gt;$0.75&lt;/td&gt;
+&lt;td&gt;$72.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Dallas, TX&lt;/td&gt;
+&lt;td&gt;1341075&lt;/td&gt;
+&lt;td&gt;$0.54&lt;/td&gt;
+&lt;td&gt;$96.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;San Jose, CA&lt;/td&gt;
+&lt;td&gt;1035317&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Austin, TX&lt;/td&gt;
+&lt;td&gt;950715&lt;/td&gt;
+&lt;td&gt;$1.35&lt;/td&gt;
+&lt;td&gt;$41.25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Jacksonville, FL&lt;/td&gt;
+&lt;td&gt;892062&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;San Francisco, CA&lt;/td&gt;
+&lt;td&gt;884363&lt;/td&gt;
+&lt;td&gt;$12.00&lt;/td&gt;
+&lt;td&gt;$81.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Columbus, OH&lt;/td&gt;
+&lt;td&gt;879170&lt;/td&gt;
+&lt;td&gt;$2.08&lt;/td&gt;
+&lt;td&gt;$62.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Fort Worth, TX&lt;/td&gt;
+&lt;td&gt;874168&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$80.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;Indianapolis, IN&lt;/td&gt;
+&lt;td&gt;863002&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$60.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Charlotte, NC&lt;/td&gt;
+&lt;td&gt;859035&lt;/td&gt;
+&lt;td&gt;$2.50&lt;/td&gt;
+&lt;td&gt;$88.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;Seattle, WA&lt;/td&gt;
+&lt;td&gt;724745&lt;/td&gt;
+&lt;td&gt;$5.42&lt;/td&gt;
+&lt;td&gt;$99.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;19&lt;/td&gt;
+&lt;td&gt;Denver, CO&lt;/td&gt;
+&lt;td&gt;704621&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$114.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;td&gt;Washington, DC&lt;/td&gt;
+&lt;td&gt;693972&lt;/td&gt;
+&lt;td&gt;$2.92&lt;/td&gt;
+&lt;td&gt;$81.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;Boston, MA&lt;/td&gt;
+&lt;td&gt;685094&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$90.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;El Paso, TX&lt;/td&gt;
+&lt;td&gt;683577&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$48.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;Detroit, MI&lt;/td&gt;
+&lt;td&gt;673104&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$70.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;Nashville, TN&lt;/td&gt;
+&lt;td&gt;667560&lt;/td&gt;
+&lt;td&gt;$0.83&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;Memphis, TN&lt;/td&gt;
+&lt;td&gt;652236&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;Portland, OR&lt;/td&gt;
+&lt;td&gt;647805&lt;/td&gt;
+&lt;td&gt;$6.25&lt;/td&gt;
+&lt;td&gt;$100.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;td&gt;Oklahoma City, OK&lt;/td&gt;
+&lt;td&gt;643648&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$50.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;28&lt;/td&gt;
+&lt;td&gt;Las Vegas, NV&lt;/td&gt;
+&lt;td&gt;641676&lt;/td&gt;
+&lt;td&gt;$-&lt;/td&gt;
+&lt;td&gt;$65.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;29&lt;/td&gt;
+&lt;td&gt;Louisville, KY&lt;/td&gt;
+&lt;td&gt;621349&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$50.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;30&lt;/td&gt;
+&lt;td&gt;Baltimore, MD&lt;/td&gt;
+&lt;td&gt;611648&lt;/td&gt;
+&lt;td&gt;$1.67&lt;/td&gt;
+&lt;td&gt;$74.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In these times of municipal fiscal distress, it is important to consider the costs of providing public services. Since residential street parking is often free (or minimally priced), the cost of upkeep and maintenance of street falls on all taxpayers through general taxation (usually the property tax). This is highly inequitable to non-street parking users who are asked to bear a portion of the cost while receiving no benefits.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; The public sector asks transit users to bear a much larger portion of the costs associated with their usage of the public transit infrastructure than car users are asked to bear.&lt;/p&gt;
+&lt;p&gt;Residential street parking could be a decent revenue source for large cities. Vast sums of money are spent on the provision and maintenance of roads and few mechanisms exist to explicitly capture revenues associated with the usage of roads.&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Appropriately pricing residential street parking could do this in a direct way.&lt;/p&gt;
+&lt;p&gt;tl;dr: Street parking in nearly all U.S. cities is vastly underpriced.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;It is important to note that in many of these cities the residential parking permit system (or zones) do not cover the entire city. In a great many locations in these cities, street parking is essentially free (or uncharged for by the public sector).&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;This doesn&amp;rsquo;t consider the social costs imposed either.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The disconnect between the provision of roads and the revenues to pay for them is and will get worse as the efficiency of the gas tax (the connection between the amount of the tax and the usage of roads) further declines. This is driven by both the failure of the gas tax to be increased (most specifically at the federal level, but also in a number of states) and, paradoxically, the increased popularity of electric or hybrid vehicles that can avoid some or all of the gas tax&amp;rsquo;s intended purpose as a fee on road usage.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+    <item>
+      <title>Zipf&#39;s Law</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/12/12/zipfs-law/</link>
+      <pubDate>Wed, 12 Dec 2018 17:46:04 -0600</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/12/12/zipfs-law/</guid>
+      <description>&lt;p&gt;Zipf&amp;rsquo;s law is a constant curiosity for urban observers. According to the law, the size of a city (i.e. population) is inversely related to the city&amp;rsquo;s population rank. This implies that the largest city is twice as large as the second largest city, three times as large as the third largest city, and so on.&lt;/p&gt;
+&lt;p&gt;The fascinating thing to me (and &lt;a href=&#34;https://scholar.harvard.edu/files/xgabaix/files/zipfs_law.pdf&#34;&gt;many others&lt;/a&gt;) is nothing preordains this relationship. No central planner makes it happen; no individual is responsible for this relationship. Yet, it persists.&lt;/p&gt;
+&lt;p&gt;Below, I replicate Figure 1 from &lt;a href=&#34;https://scholar.harvard.edu/files/xgabaix/files/zipfs_law.pdf&#34;&gt;Gabaix (1999)&lt;/a&gt; by plotting the logarithm of size rank against the logarithm of size (i.e population) for the largest 135 metropolitan statistical areas in the U.S using 2010 census data (rather than 1991 data). We can see the typical downward sloping relationship found by Gabaix and others. Gabaix suggests the slope of the regression line should be roughly one and this is replicated, albeit slightly more negative than what was found using the 1991 data.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/zipf135.png&#34;
+         alt=&#34;Zipf&amp;#39;s Law&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;$$ln, Rank = 18.891 - 1.082; ln, Size, ;R^2=0.978$$&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;If Zipf&amp;rsquo;s law is to be believed, the above graph suggests that the largest cities (those with low log rank on the right side) are too small to fit Zipf&amp;rsquo;s law perfectly. They fall below the trend line and should be, in a perfect Zipf&amp;rsquo;s law world, larger than they actually are. This likely comports with the general understanding that large, coastal U.S. cities aren&amp;rsquo;t growing nearly fast enough to accommodate all the individuals who might want to locate there.&lt;/p&gt;
+&lt;p&gt;As &lt;a href=&#34;https://economix.blogs.nytimes.com/2010/04/20/a-tale-of-many-cities/&#34;&gt;Ed Glaeser&lt;/a&gt; notes, it appears that Zipf&amp;rsquo;s law for cities is a function of the outward growth of cities. When examining fixed boundary geographies, Zipf&amp;rsquo;s law appears not to apply. Therefore, the sprawling nature of many U.S. cities appears to be a fundamental part of Zipf&amp;rsquo;s law holding.&lt;/p&gt;
+&lt;p&gt;When expanded to the full data on all 382 metropolitan areas, things change slightly but the more or less linear relationship between rank and size is preserved. In this instance, both the largest and the smallest metropolitan areas appear to be too small to fit Zipf&amp;rsquo;s law. This is a trend noted by &lt;a href=&#34;https://economix.blogs.nytimes.com/2010/04/20/a-tale-of-many-cities/&#34;&gt;Ed Glaeser&lt;/a&gt; as well.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/zipf.png&#34;
+         alt=&#34;$$ln, Rank = 16.283 - 0.896; ln, Size, ;R^2=0.976$$&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;$$ln, Rank = 16.283 - 0.896; ln, Size, ;R^2=0.976$$&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Long-Run Metropolitan Economic Growth in the U.S.</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/07/31/long-run-metropolitan-economic-growth-in-the-u.s./</link>
+      <pubDate>Tue, 31 Jul 2018 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/07/31/long-run-metropolitan-economic-growth-in-the-u.s./</guid>
+      <description>&lt;p&gt;Full color, stylized maps created for my &lt;a href=&#34;https://www.cgoodman.com/research/frag-grow/&#34;&gt;working paper&lt;/a&gt; on local political fragmentation and economic growth. These three maps examine long-run (1960-2000) growth in population, employment, and per capita money income among 314 U.S. metropolitan areas.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/pop.png&#34;
+         alt=&#34;Long run population growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run population growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/pcpi.png&#34;
+         alt=&#34;Long run employment growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run employment growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/emp.png&#34;
+         alt=&#34;Long run per capita money income growth.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Long run per capita money income growth.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Canadian City Councilors per 100,000 Residents</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/07/28/canadian-city-councilors-per-100000-residents/</link>
+      <pubDate>Sat, 28 Jul 2018 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/07/28/canadian-city-councilors-per-100000-residents/</guid>
+      <description>&lt;p&gt;Created in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;ggplot2&lt;/code&gt;. Full code and data can be found &lt;a href=&#34;https://github.com/cbgoodman/citycouncil&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/canadiancouncilors.png&#34;
+         alt=&#34;Canadian city councilors per 100,000 residents.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Canadian city councilors per 100,000 residents.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>City Councilors per 100,000 Residents</title>
+      <link>https://www.cgoodman.com/blog/archives/2018/07/28/city-councilors-per-100000-residents/</link>
+      <pubDate>Sat, 28 Jul 2018 16:53:53 -0500</pubDate>
+      
+      <guid>https://www.cgoodman.com/blog/archives/2018/07/28/city-councilors-per-100000-residents/</guid>
+      <description>&lt;p&gt;Created in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;ggplot2&lt;/code&gt;. The relevant code is below.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;files/misc/councilors.png&#34;
+         alt=&#34;City councilors per 100,000 residents.&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;City councilors per 100,000 residents.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;
+&lt;span style=&#34;color:#268bd2&#34;&gt;library&lt;/span&gt;(tidyverse)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# read in data&lt;/span&gt;
+council &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;read.csv&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;citycouncil.csv&amp;#34;&lt;/span&gt;)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# calculate councilors per 100,000 population&lt;/span&gt;
+council&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;pc.council &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; council&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;council&lt;span style=&#34;color:#719e07&#34;&gt;/&lt;/span&gt;(council&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;pop17&lt;span style=&#34;color:#719e07&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;100000&lt;/span&gt;)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# create annotation&lt;/span&gt;
+annot &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;read.table&lt;/span&gt;(text&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;
+  &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;city|number|just|text
+&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;  1.75|4.65|0|Both Nashville &amp;amp; Louisville are consolidated,&amp;lt;br&amp;gt;city-county governments.
+&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;  16.5|2.4|0|Detroit &amp;amp; Fresno are the median city with&amp;lt;br&amp;gt;1.3 councilors per 100,000 residents.
+&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;  32.5|1.4|0|Some of the largest U.S. cities have the&amp;lt;br&amp;gt;fewest councilors per 100,000 residents.&amp;#34;&lt;/span&gt;,
+  sep&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;|&amp;#34;&lt;/span&gt;, header&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;TRUE&lt;/span&gt;, stringsAsFactors&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;FALSE&lt;/span&gt;)
+annot&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;text &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;gsub&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;&amp;lt;br&amp;gt;&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;\n&amp;#34;&lt;/span&gt;, annot&lt;span style=&#34;color:#719e07&#34;&gt;$&lt;/span&gt;text)
+
+&lt;span style=&#34;color:#586e75&#34;&gt;# plot&lt;/span&gt;
+p &lt;span style=&#34;color:#719e07&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#268bd2&#34;&gt;ggplot&lt;/span&gt;(data&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;council,
+  &lt;span style=&#34;color:#268bd2&#34;&gt;aes&lt;/span&gt;(x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;reorder&lt;/span&gt;(City, &lt;span style=&#34;color:#719e07&#34;&gt;-&lt;/span&gt;pc.council), y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;pc.council, width&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.9&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;geom_bar&lt;/span&gt;(stat&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;, fill&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;#E69F00&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;#geom_bar(stat=&amp;#34;identity&amp;#34;, fill=&amp;#34;#999999&amp;#34;)+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;scale_y_continuous&lt;/span&gt;(breaks&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;seq&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;6&lt;/span&gt;, by&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;1&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# read in annotations&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;geom_label&lt;/span&gt;(data&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;annot, &lt;span style=&#34;color:#268bd2&#34;&gt;aes&lt;/span&gt;(x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;city, y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;number, label&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;text, hjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;just),
+    family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Light&amp;#34;&lt;/span&gt;, lineheight&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.95&lt;/span&gt;,
+    size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;3.5&lt;/span&gt;, label.size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0&lt;/span&gt;, color&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;#2b2b2b&amp;#34;&lt;/span&gt;)&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# Theming&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;labs&lt;/span&gt;(
+    title&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Most city council districts in the U.S. are large&amp;#34;&lt;/span&gt;,
+    subtitle&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;City councilors per 100,000 residents, 40 largest U.S. cities, 2017&amp;#34;&lt;/span&gt;,
+    caption&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Author: Chris Goodman (@cbgoodman), Data: U.S. Census Bureau &amp;amp; Author&amp;#39;s calculations.&amp;#34;&lt;/span&gt;,
+    y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;NULL&lt;/span&gt;,
+    x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#cb4b16&#34;&gt;NULL&lt;/span&gt;) &lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme_minimal&lt;/span&gt;(base_family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Light&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# light, dotted major y-grid lines only&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.major.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;(color&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;#2b2b2b&amp;#34;&lt;/span&gt;, linetype&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;dotted&amp;#34;&lt;/span&gt;, size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.15&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.major.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.minor.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(panel.grid.minor.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# light x-axis line only&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.line&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.line.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.line.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# tick styling&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_line&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks.y&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_blank&lt;/span&gt;())&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.ticks.length&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;5&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;pt&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# x-axis labels&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(axis.text.x&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;10&lt;/span&gt;, angle&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;90&lt;/span&gt;, hjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.95&lt;/span&gt;,vjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0.2&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# breathing room for the plot&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.margin&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;unit&lt;/span&gt;(&lt;span style=&#34;color:#268bd2&#34;&gt;rep&lt;/span&gt;(&lt;span style=&#34;color:#2aa198&#34;&gt;0.5&lt;/span&gt;, &lt;span style=&#34;color:#2aa198&#34;&gt;4&lt;/span&gt;), &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;cm&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# move the y-axis tick labels over a bit&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;#theme(axis.text.y=element_text(margin=margin(r=-5)))+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# make the plot title bold and modify the bottom margin a bit&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.title&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Bold&amp;#34;&lt;/span&gt;, margin&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;margin&lt;/span&gt;(b&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;15&lt;/span&gt;)))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#586e75&#34;&gt;# make the subtitle italic&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.subtitle&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(family&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;Open Sans Condensed Light Italic&amp;#34;&lt;/span&gt;))&lt;span style=&#34;color:#719e07&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#268bd2&#34;&gt;theme&lt;/span&gt;(plot.caption&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;element_text&lt;/span&gt;(size&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;8&lt;/span&gt;, hjust&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;0&lt;/span&gt;, margin&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#268bd2&#34;&gt;margin&lt;/span&gt;(t&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;15&lt;/span&gt;)))
+
+&lt;span style=&#34;color:#268bd2&#34;&gt;ggsave&lt;/span&gt;(plot&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;p, &lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;councilors.png&amp;#34;&lt;/span&gt;, width&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;10&lt;/span&gt;, height&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;6&lt;/span&gt;, units&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;in&amp;#34;&lt;/span&gt;, dpi&lt;span style=&#34;color:#719e07&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#2aa198&#34;&gt;&amp;#34;retina&amp;#34;&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Full code and data can be found &lt;a href=&#34;https://github.com/cbgoodman/citycouncil&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

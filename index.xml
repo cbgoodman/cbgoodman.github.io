@@ -1,0 +1,99 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Christopher B. Goodman, PhD on cgoodman.com </title>
+    <link>https://www.cgoodman.com/</link>
+    <language>en-us</language>
+    <author>Christopher B. Goodman</author>
+    <rights>Copyright (c) Christopher B. Goodman.</rights>
+    <updated>Mon, 20 Mar 2023 00:00:00 -0600</updated>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://www.cgoodman.com/teaching/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 -0600</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://www.cgoodman.com/blog/</link>
+      <pubDate>Wed, 25 Jan 2023 14:27:51 -0600</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://www.cgoodman.com/research/</link>
+      <pubDate>Sun, 20 Jun 2010 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archives</title>
+      <link>https://www.cgoodman.com/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio &amp; CV</title>
+      <link>https://www.cgoodman.com/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/cv/</guid>
+      <description>&lt;div class=&#34;units-row&#34;&gt; &lt;div class=&#34;unit-40&#34;&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://www.cgoodman.com/files/misc/20-Chris_Goodman-0221-WD-18.jpg&#34; width=400&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;unit-50&#34;&gt;
+&lt;p&gt;&lt;br /&gt;I am an Associate Professor of &lt;a href=&#34;http://mpa.niu.edu/&#34;&gt;Public Administration&lt;/a&gt; at &lt;a href=&#34;http://www.niu.edu&#34;&gt;Northern Illinois University&lt;/a&gt;. Much of my research exists at the nexus of local public finance, local government management, urban policy, and intergovernmental affairs. My research agenda, in large part, seeks to examine questions of why local areas make the governance decisions they do. As with most research in this realm, these decisions are inextricably linked to issues of public spending, taxation, and state policy. I tend to focus on specific questions dealing with the special district form of local government as these governments are under-researched in the relevant literature. A secondary line of research focuses on the state preemption of local ordinances.&lt;/p&gt;
+&lt;p&gt;I received a B.S. in political science from Kennesaw State University, a Master of Public Administration with a specialization in public policy analysis from the University of Georgia, and a PhD in public administration and policy from the University of Georgia.&lt;/p&gt;
+&lt;p&gt;Most of my &lt;a href=&#34;research/&#34;&gt;publications and working papers&lt;/a&gt; are available on this site, along with my &lt;a href=&#34;blog/&#34;&gt;random musings&lt;/a&gt;. My complete &lt;a href=&#34;vita.pdf&#34;&gt;curriculum vitae&lt;/a&gt; has more detail, if you need it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://www.cgoodman.com/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      <author>Christopher B. Goodman</author>
+      <guid>https://www.cgoodman.com/data/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This page has links to datasets, replication data, and other research resources.&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;units-row&#34;&gt;
+&lt;div class=&#34;unit-50&#34;&gt;
+&lt;h4&gt;&lt;a href=&#34;https://github.com/cbgoodman/localdebtlimits&#34; title=&#34;Local Debt Limitations and Referenda Requirements data @ Github&#34;&gt;Local Debt Limitations and Referenda Requirements&lt;/a&gt; &amp;rarr;&lt;/h4&gt;
+&lt;p&gt;This replication package contains the Stata code and raw spreadsheets needed to create the state-level local debt limitation and referendum dataset utilized in &lt;a href = &#34;https://dx.doi.org/10.1093/publius/pjx065&#34;&gt;Goodman (2018)&lt;/a&gt; and &lt;a href = &#34;https://dx.doi.org/10.1177/0275074018804665&#34;&gt;Goodman and Leland (2018)&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&#34;https://github.com/cbgoodman/tels-data&#34; title=&#34;TEL data @ Github&#34;&gt;State-Level Tax and Expenditure Limitations&lt;/a&gt; &amp;rarr;&lt;/h4&gt;
+&lt;p&gt;This replication package contains the Stata code and raw spreadsheets needed to create the state-level tax and expenditure limitation data contained in &lt;a href=&#34;http://www.library.unt.edu/gpo/acir/Reports/information/M-194.pdf&#34;&gt;Mullins and Cox (1995)&lt;/a&gt; and the &lt;a href=&#34;http://www.lincolninst.edu/&#34;&gt;Lincoln Institute for Land Policy&#39;s&lt;/a&gt; &lt;a href=&#34;http://datatoolkits.lincolninst.edu/subcenters/significant-features-property-tax/Report_Tax_Limits.aspx&#34;&gt;Signifiant Features of the Property Tax: Tax Limits&lt;/a&gt;. &lt;em&gt;This is a work in progress&lt;/em&gt;.&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&#34;https://github.com/cbgoodman/muni-incorporation&#34; title=&#34;Municipal incorporation data @ Github&#34;&gt;Municipal Incorporation&lt;/a&gt; &amp;rarr;&lt;/h4&gt;
+&lt;p&gt;This repository contains the raw data, code, and sources used to create an individual level and state municipal incorporation date dataset for all active (contained in the Census of Governments) municipalities in the United States. &lt;em&gt;This is a work in progress&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;unit-50&#34;&gt;
+&lt;h4&gt;&lt;a href=&#34;https://github.com/cbgoodman/countyfips&#34; title=&#34;countyfips @ Github&#34;&gt;&lt;code&gt;countyfips&lt;/code&gt;&lt;/a&gt; &amp;rarr;&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;countyfips&lt;/code&gt; is a simple Stata crosswalk program for adding various county-level identifiers (name, FIPS, Census codes) that may be missing from your dataset. The purpose of this program is to facilitate merging datasets that do not share a common identifier.&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&#34;https://github.com/cbgoodman/msacrosswalk&#34; title=&#34;msacrosswalk @ Github&#34;&gt;&lt;code&gt;msacrosswalk&lt;/code&gt;&lt;/a&gt; &amp;rarr;&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;msacrosswalk&lt;/code&gt; is a simple Stata crosswalk program for adding 2013, 2015, or 2017 vintage CBSA/CSA codes, CBSA/CSA names, metropolitan/micropolitan, and central/outlying indicators that may be missing from your dataset.&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&#34;https://github.com/cbgoodman?tab=repositories&#34; title=&#34;All repositories @ Github&#34;&gt;All GitHub Projects&lt;/a&gt; &amp;rarr;&lt;/h4&gt;
+&lt;p&gt;Here is a &lt;a href=&#34;https://github.com/cbgoodman?tab=repositories&#34;&gt;full list of the various public code and data repositories&lt;/a&gt; that I have put on GitHub. They range from the configuration and templating tools listed above to data visualization exercises and other bits of data analysis, mostly written in R.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
